@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="8px" height="22px" viewBox="0 0 8 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.1 (33804) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_move</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Broadcast-line" transform="translate(-57.000000, -148.000000)">
+            <g id="Content" transform="translate(-234.000000, 104.000000)">
+                <g id="icon_move" transform="translate(291.000000, 44.000000)">
+                    <polygon id="Shape" fill="#999999" points="3 9 3 4 1.5 5.5 0.08 4.08 4 0.16 7.92 4.08 6.5 5.5 5 4 5 9"></polygon>
+                    <polygon id="Shape" fill="#999999" transform="translate(4.000000, 17.580000) rotate(180.000000) translate(-4.000000, -17.580000) " points="3 22 3 17 1.5 18.5 0.08 17.08 4 13.16 7.92 17.08 6.5 18.5 5 17 5 22"></polygon>
+                    <circle id="Oval-3" stroke="#999999" stroke-width="2" fill="#F2F4F5" cx="4" cy="11" r="2"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
