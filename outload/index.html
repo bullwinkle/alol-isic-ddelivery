@@ -92,7 +92,6 @@
 	<form id="btn-settings" class="settings" ng-init="button=vm.button || {type:0}">
 		<div class="setting-btn">
 			<div class="form-group">
-				<label>Title</label>
 				<input ng-model="button.title"
 				       type="text"
 				       class="form-control"
@@ -100,25 +99,27 @@
 				       placeholder="New button">
 			</div>
 
-			<div class="form-group">
-				<div class="btn-group btn-group-justified">
-					<label class="btn btn-primary"
-					       ng-model="button.type"
-					       uib-btn-radio="0"
-					       uncheckable>Send Message</label>
-					<label class="btn btn-primary"
-					       ng-model="button.type"
-					       uib-btn-radio="1"
-					       uncheckable>Go to URL</label>
-				</div>
-			</div>
+			<ul class="nav nav-tabs nav-justified">
+				<li role="presentation"
+				    ng-model="button.type"
+				    uib-btn-radio="0"
+				    class="active">
+					<a href="#">Send Message</a>
+				</li>
+				<li role="presentation"
+				    ng-model="button.type"
+				    uib-btn-radio="1"
+					>
+					<a href="#">Go to URL</a>
+				</li>
+			</ul>
 
 			<div class="form-group"
 			     ng-switch="button.type">
 
 				<div ng-switch-when="0">
 					<button type="button"
-					        class="btn btn-link btn-block">View messages
+					        class="btn btn-default s-br-transparent">+ Add message
 					</button>
 				</div>
 				<div ng-switch-when="1">
@@ -129,9 +130,9 @@
 				</div>
 			</div>
 
-			<div class="form-group clearfix">
+			<div class="clearfix">
 				<button type="button"
-				        class="btn btn-danger pull-left"
+				        class="btn btn-default pull-left"
 				        ng-click="vm.removeButton(button)">Remove
 				</button>
 				<button type="submit"
