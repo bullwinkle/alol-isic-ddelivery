@@ -77,24 +77,9 @@
 		<div class="row">
 			<div class="col-md-offset-1 col-sm-offset-1 col-md-4 col-sm-6 col-xs-10 col-xs-offset-1">
 				<div ng-cloak
-				     class="builder"
-				     ng-controller="BroadcastBuilder as vm">
+				     class="builder">
 
-					<div ng-repeat="message in vm.messages"
-					     ng-switch="message.type">
-						<message-text ng-switch-when="0"></message-text>
-						<message-gallery ng-switch-when="1"></message-gallery>
-						<message-image ng-switch-when="2"></message-image>
-					</div>
-
-					<div class="builder-controls">
-						<div class="ctrl"
-						     type="button"
-						     class=""
-						     ng-click="vm.addMessage( vm.getMessageType() )">
-							<img src="img/icons/svg/icon_card-add.svg" alt="">
-						</div>
-					</div>
+					<broadcast-builder></broadcast-builder>
 
 				</div>
 			</div>
@@ -104,7 +89,7 @@
 
 
 <script type="text/ng-template" id="popover.html">
-	<form id="btn-settings" class="settings" ng-init="button={type:0}">
+	<form id="btn-settings" class="settings" ng-init="button=vm.button || {type:0}">
 		<div class="setting-btn">
 			<div class="form-group">
 				<label>Title</label>
@@ -112,8 +97,7 @@
 				       type="text"
 				       class="form-control"
 				       maxlength="50"
-				       placeholder="New button"
-				       required>
+				       placeholder="New button">
 			</div>
 
 			<div class="form-group">
@@ -147,18 +131,20 @@
 
 			<div class="form-group clearfix">
 				<button type="button"
-				        class="btn btn-danger pull-left">Remove
+				        class="btn btn-danger pull-left"
+				        ng-click="vm.removeButton(button)">Remove
 				</button>
 				<button type="submit"
 				        class="btn btn-success pull-right"
-				        ng-click="vm.addButton(button)">Save
+				        ng-click="vm.addButton(button);button={type:0}">Save
 				</button>
 			</div>
 		</div>
 	</form>
 
-	<!--TODO remove before release-->
-	<!--<pre>{{ button | json }}</pre>-->
+	<!--&lt;!&ndash;TODO remove before release&ndash;&gt;-->
+	<!--<pre>button: {{ button | json }}</pre>-->
+	<!--<pre>vm: {{ vm | json }}</pre>-->
 </script>
 
 

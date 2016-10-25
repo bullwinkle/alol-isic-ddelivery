@@ -5678,6 +5678,25 @@ body {
 .builder .card .dropzone input[type="file"] {
   display: none;
 }
+.builder .card .action-drag-move,
+.builder .card .action-remove {
+  position: absolute;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  z-index: 20;
+}
+.builder .card .action-drag-move {
+  left: -40px;
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
+.builder .card .action-remove {
+  right: -40px;
+  cursor: pointer;
+}
 .builder .builder-controls {
   position: relative;
   text-align: center;
@@ -5699,7 +5718,7 @@ body {
 }
 .builder .context-buttons {
   position: absolute;
-  top: 50%;
+  top: 150px;
   left: 0;
   right: 0;
   margin: -25px -65px 0;
