@@ -5368,7 +5368,7 @@ body {
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #2487ca;
+  color: #2487ca !important;
   background-color: transparent;
   border: 2px solid transparent !important;
   border-bottom-color: #2487ca !important;
