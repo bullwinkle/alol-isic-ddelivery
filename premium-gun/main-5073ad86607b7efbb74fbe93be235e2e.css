@@ -5552,8 +5552,8 @@ button,
   transition: transform 0.1s ease-in-out;
   transform: scale(1);
 }
-button:hover,
-.button:hover {
+button:not(.no-hover):hover,
+.button:not(.no-hover):hover {
   transform: scale(1.06);
 }
 button.button-big,
@@ -5657,4 +5657,4 @@ img.full-height {
   }
 }
 
-/*# sourceMappingURL=main-1a31847746d0fad131488e01b0526408.css.map*/
+/*# sourceMappingURL=main-5073ad86607b7efbb74fbe93be235e2e.css.map*/
