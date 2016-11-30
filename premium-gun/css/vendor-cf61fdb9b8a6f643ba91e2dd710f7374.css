@@ -1787,4 +1787,10 @@ body {
     .position-right.reveal-for-xxlarge ~ .off-canvas-content {
       margin-right: 250px; } }
 
-/*# sourceMappingURL=vendor-735f543dc097cde519a4281f4c2a2f0a.css.map*/
+@media screen and (max-width: 480px) {
+  .xsmall-12 {
+    -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    max-width: 100%; } }
+
+/*# sourceMappingURL=vendor-cf61fdb9b8a6f643ba91e2dd710f7374.css.map*/
