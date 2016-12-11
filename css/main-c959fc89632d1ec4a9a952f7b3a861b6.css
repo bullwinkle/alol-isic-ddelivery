@@ -194,15 +194,6 @@
 .icon.m-arrow-right {
   background-image: url(/assets/icons/arrow-right-26164fa7b74c8cf560184f474fc07caf.png);
 }
-.Shape_90 {
-  background-color: #313131;
-  position: absolute;
-  left: 41px;
-  top: 2154px;
-  width: 1833px;
-  height: 528px;
-  z-index: 1131;
-}
 .l-inline {
   display: inline-block;
 }
@@ -38628,23 +38619,25 @@ p {
 }
 ul {
   list-style: none;
+}
+ul:not(.unstyled) {
   margin-top: 5rem;
   margin-bottom: 4.375rem;
 }
-ul li {
+ul:not(.unstyled) li {
   font-size: 0.875rem;
   line-height: 1.25rem;
   padding-left: 2.25rem;
   position: relative;
 }
-ul li:before {
+ul:not(.unstyled) li:before {
   position: absolute;
   top: 0;
   left: 0;
   content: "\2022";
   color: #ee9577;
 }
-ul li:not(:first-child) {
+ul:not(.unstyled) li:not(:first-child) {
   margin-top: 15px;
 }
 table {
@@ -39028,6 +39021,16 @@ img.size-cover {
 .menu.vertical > *:not(:first-child) {
   border-top: 1px solid;
 }
+#contacts .map-wrapper {
+  height: 400px;
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  #contacts .map-wrapper {
+    height: 690px;
+    margin-top: -130px;
+  }
+}
 h1,
 .h1,
 h2,
@@ -39045,16 +39048,16 @@ h6,
 }
 h1,
 .h1 {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
   font-weight: 900;
   margin-top: 5rem;
   margin-bottom: 3.25rem;
-  font-size: 1.5rem;
-  line-height: 2.25rem;
 }
 h2,
 .h2 {
   font-size: 1.5rem;
-  line-height: 1.625rem;
+  line-height: 2.25rem;
   font-weight: 900;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -39062,7 +39065,7 @@ h2,
 h3,
 .h3 {
   font-size: 1.3125rem;
-  line-height: 1.625rem;
+  line-height: 2.25rem;
   font-weight: 700;
   margin-top: 1.875rem;
   margin-bottom: 1.875rem;
@@ -39161,4 +39164,4 @@ button.button-text:hover,
   color: #d5491b;
 }
 
-/*# sourceMappingURL=main-495a890927b5a32d0b498672e7ae73be.css.map*/
+/*# sourceMappingURL=main-c959fc89632d1ec4a9a952f7b3a861b6.css.map*/
