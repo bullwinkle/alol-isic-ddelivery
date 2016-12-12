@@ -39330,12 +39330,17 @@ input[type=checkbox].dark:checked {
   position: absolute;
   padding: 38px;
   top: 100%;
-  left: 0;
   color: #fff;
   width: 355px;
   font-size: 0.875rem;
   background: rgba(0,0,0,0.86) url(/assets/images/bg-pattern-2-a75da4e85c3dc720cca9aed7cffd3a0a.png);
   display: none;
+}
+.filter-item-dropdown:not(.to-left) {
+  left: 0;
+}
+.filter-item-dropdown.to-left {
+  right: 0;
 }
 .filter-item:hover {
   color: #fff;
@@ -39355,4 +39360,4 @@ input[type=checkbox].dark:checked {
   display: block;
 }
 
-/*# sourceMappingURL=main-359b2800f01c385dee54f233e8c9f404.css.map*/
+/*# sourceMappingURL=main-bcb29754a56b3c8b06aae6604d915492.css.map*/
