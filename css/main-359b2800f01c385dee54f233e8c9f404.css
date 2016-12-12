@@ -39085,12 +39085,6 @@ button,
 .button {
   display: inline-block;
 }
-button.button-big,
-.button.button-big {
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 999px;
-}
 button.button-square,
 .button.button-square {
   background-image: url(/assets/images/button-square-90956c503686567585f7f6998a028c64.jpg);
@@ -39106,7 +39100,9 @@ button.button-square:hover,
   background-image: url(/assets/images/button-square-hover-a1ebf6524dfeb5d020fcf662c977fb4e.jpg);
 }
 button.button-rounded,
-.button.button-rounded {
+.button.button-rounded,
+button.button-rounded-primary,
+.button.button-rounded-primary {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 14px;
@@ -39114,11 +39110,30 @@ button.button-rounded,
   border-width: 1px;
   border-style: solid;
   border-radius: 1000px;
+}
+button.button-rounded,
+.button.button-rounded {
   color: #777;
 }
 button.button-rounded:hover,
 .button.button-rounded:hover {
   color: #ee9577;
+}
+button.button-rounded:active,
+.button.button-rounded:active {
+  color: #d5491b;
+}
+button.button-rounded-primary,
+.button.button-rounded-primary {
+  color: #ee9577;
+}
+button.button-rounded-primary:hover,
+.button.button-rounded-primary:hover {
+  color: #d5491b;
+}
+button.button-rounded-primary:active,
+.button.button-rounded-primary:active {
+  color: #f4b8a4;
 }
 button.button-text,
 .button.button-text {
@@ -39131,6 +39146,10 @@ button.button-text,
 button.button-text:hover,
 .button.button-text:hover {
   color: #d5491b;
+}
+button.button-text:hover,
+.button.button-text:hover {
+  color: #f4b8a4;
 }
 input[type=radio],
 input[type=checkbox] {
@@ -39336,4 +39355,4 @@ input[type=checkbox].dark:checked {
   display: block;
 }
 
-/*# sourceMappingURL=main-3eecd3fb817b269338e22dbee79540d3.css.map*/
+/*# sourceMappingURL=main-359b2800f01c385dee54f233e8c9f404.css.map*/
