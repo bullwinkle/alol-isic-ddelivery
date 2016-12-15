@@ -39458,5 +39458,91 @@ input[type=checkbox].dark:checked {
 .filter-item:hover .filter-item-dropdown {
   display: block;
 }
+.catalog-list {
+  margin: 0 auto;
+  max-width: 1310px;
+}
+.catalog-list-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  z-index: 10;
+  width: 100%;
+}
+.catalog-list-wrapper:not(.is-visible) {
+  display: none;
+}
+.catalog-list-inner-wrapper {
+  padding-top: 8.125rem;
+  background-color: rgba(19,12,14,0.98);
+  margin: 0 auto;
+  max-width: 1610px;
+}
+.catalog-list-close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255,255,255,0.7);
+  color: #000;
+  text-align: center;
+  line-height: 52px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 26px;
+}
+.catalog-list-category-block {
+  padding-bottom: 40px;
+}
+.catalog-list-category-block:not(:first-child) {
+  border-left: 1px solid #1e1e1e;
+}
+@media screen and (min-width:1440px) {
+  .catalog-list-category-block:not(:first-child) .catalog-list-category-block-inner {
+    padding: 40px 40px 0 40px;
+  }
+}
+@media screen and (min-width:1440px) {
+  .catalog-list-category-block:first-child .catalog-list-category-block-inner {
+    padding: 40px 40px 0 0;
+  }
+}
+.catalog-list-category-block a {
+  color: #bcbcbc;
+}
+.catalog-list-company-name {
+  letter-spacing: 0.1rem;
+}
+.catalog-list-input-wrapper {
+  display: inline-block;
+  background-color: #1e191a;
+  position: relative;
+  width: 100%;
+  max-width: 34.25rem;
+}
+.catalog-list-input-wrapper .catalog-list-input {
+  width: 100%;
+  background-color: #1e191a;
+  padding: 0.3125rem 1px 0.3125rem 0.9375rem;
+  border: none;
+  display: inline-block;
+  padding-right: 70px;
+  height: 56px;
+  color: #fff;
+}
+.catalog-list-input-wrapper .catalog-list-input+i {
+  position: absolute;
+  top: 0.3125rem;
+  right: 0;
+  bottom: 0.3125rem;
+  border-left: 1px solid #414141;
+  padding: 0.75rem 1.625rem;
+  pointer-events: none;
+}
+.catalog-list-input-wrapper .catalog-list-input+i .icon {
+  width: 1rem;
+  height: 1rem;
+}
 
-/*# sourceMappingURL=main-d842e59f63ae698ee177bcd8f0d8936c.css.map*/
+/*# sourceMappingURL=main-1399a0e54c65704b4859f04ac705f9c7.css.map*/
