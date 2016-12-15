@@ -39477,6 +39477,7 @@ input[type=checkbox].dark:checked {
   background-color: rgba(19,12,14,0.98);
   margin: 0 auto;
   max-width: 1610px;
+  position: relative;
 }
 .catalog-list-close-button {
   position: absolute;
@@ -39545,4 +39546,4 @@ input[type=checkbox].dark:checked {
   height: 1rem;
 }
 
-/*# sourceMappingURL=main-1399a0e54c65704b4859f04ac705f9c7.css.map*/
+/*# sourceMappingURL=main-d62d5ff4ef08c10d56de2e4619ccde61.css.map*/
