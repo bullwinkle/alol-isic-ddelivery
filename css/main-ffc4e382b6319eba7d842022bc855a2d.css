@@ -37925,7 +37925,9 @@
 .f-hover-c-xxdark-gray:hover {
   color: #1a1a1a;
 }
-.f-c-black {
+.f-c-black,
+.tabs_product .tabs-title:not(.is-active),
+.tabs_product .tabs-title:not(.is-active) a {
   color: #111;
 }
 .f-hover-c-black:hover {
@@ -37937,7 +37939,9 @@
 .f-hover-c-black-08:hover {
   color: rgba(0,0,0,0.83);
 }
-.f-c-white {
+.f-c-white,
+.tabs_product .tabs-title.is-active,
+.tabs_product .tabs-title.is-active a {
   color: #fefefe;
 }
 .f-hover-c-white:hover {
@@ -38234,7 +38238,8 @@
 .s-bd-black {
   border-color: #111;
 }
-.s-bg-black-08 {
+.s-bg-black-08,
+.tabs_product .tabs-title.is-active {
   background-color: rgba(0,0,0,0.83);
 }
 .s-bd-black-08 {
@@ -38355,7 +38360,8 @@
 .s-hover-td-n:hover {
   text-decoration: none !important;
 }
-.s-op-20 {
+.s-op-20,
+.tabs_product-variants .tabs-title:not(.is-active) a {
   opacity: 0.2;
 }
 .s-ov-h {
@@ -39545,5 +39551,461 @@ input[type=checkbox].dark:checked {
   width: 1rem;
   height: 1rem;
 }
+.catalog-block {
+  position: relative;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+.catalog-block-image {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  max-width: none;
+  display: none;
+}
+.catalog-block-image.image-480 {
+  left: -100px;
+  width: 732px;
+  height: 1250px;
+}
+.catalog-block-image.image-768 {
+  width: 1123px;
+  height: 1141px;
+  left: -190px;
+}
+.catalog-block-image.image-1024 {
+  width: 1464px;
+  height: 1440px;
+  left: -210px;
+}
+.catalog-block-image.image-1200 {
+  width: 1676px;
+  height: 1440px;
+  left: -180px;
+}
+.catalog-block-image.image-1400 {
+  width: 1904px;
+  height: 1155px;
+  left: -240px;
+}
+.catalog-block-image.image-1800 {
+  width: 2154px;
+  height: 1155px;
+  left: -130px;
+}
+.catalog-block-text {
+  position: absolute;
+  z-index: 2;
+  font-weight: 300;
+  text-align: left;
+}
+.catalog-block-text-title {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: Roboto, sans-serif;
+}
+.catalog-block-text.block-1-glasses br {
+  display: none;
+}
+.catalog-block-text.block-5-jacket br {
+  display: none;
+}
+.catalog-block-text.block-7-boots br {
+  display: none;
+}
+.catalog-block-text.block-9-bag br {
+  display: none;
+}
+.catalog-block-text-count {
+  font-size: 1.25rem;
+  line-height: 2.375rem;
+}
+@media screen and (max-width: 768px) {
+  .catalog-block {
+    margin-top: 10px;
+    width: 480px;
+    height: 1250px;
+  }
+  .catalog-block-image.image-480 {
+    display: inline-block;
+  }
+  .catalog-block-text-title {
+    font-size: 26px;
+    line-height: 33px;
+    font-family: Roboto, sans-serif;
+  }
+  .catalog-block-text-count {
+    font-size: 15px;
+    line-height: 35px;
+  }
+  .catalog-block-text.block-1-glasses {
+    top: 389px;
+    left: 34px;
+  }
+  .catalog-block-text.block-1-glasses br {
+    display: block;
+  }
+  .catalog-block-text.block-2-gun {
+    top: 206px;
+    left: 20px;
+  }
+  .catalog-block-text.block-3-binocle {
+    top: 555px;
+    left: 146px;
+  }
+  .catalog-block-text.block-4-pipe {
+    top: 38px;
+    left: 336px;
+  }
+  .catalog-block-text.block-5-jacket {
+    top: 669px;
+    left: 156px;
+  }
+  .catalog-block-text.block-5-jacket br {
+    display: block;
+  }
+  .catalog-block-text.block-6-knife {
+    top: 673px;
+    left: 305px;
+  }
+  .catalog-block-text.block-7-boots {
+    top: 1065px;
+    left: 367px;
+  }
+  .catalog-block-text.block-7-boots br {
+    display: block;
+  }
+  .catalog-block-text.block-8-ammo {
+    top: 285px;
+    left: 272px;
+  }
+  .catalog-block-text.block-9-bag {
+    top: 814px;
+    left: 216px;
+  }
+  .catalog-block-text.block-9-bag br {
+    display: block;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .catalog-block {
+    width: 768px;
+    height: 1141px;
+  }
+  .catalog-block-image.image-768 {
+    display: inline-block;
+  }
+  .catalog-block-text-title {
+    font-size: 30px;
+    line-height: 33px;
+    font-family: Roboto, sans-serif;
+  }
+  .catalog-block-text-count {
+    font-size: 15px;
+    line-height: 32px;
+  }
+  .catalog-block-text.block-1-glasses {
+    top: 292px;
+    left: 319px;
+  }
+  .catalog-block-text.block-1-glasses br {
+    display: block;
+  }
+  .catalog-block-text.block-2-gun {
+    top: 61px;
+    left: 22px;
+  }
+  .catalog-block-text.block-3-binocle {
+    top: 512px;
+    left: 456px;
+  }
+  .catalog-block-text.block-4-pipe {
+    top: 22px;
+    left: 586px;
+  }
+  .catalog-block-text.block-5-jacket {
+    top: 437px;
+    left: 131px;
+  }
+  .catalog-block-text.block-5-jacket br {
+    display: block;
+  }
+  .catalog-block-text.block-6-knife {
+    top: 647px;
+    left: 363px;
+  }
+  .catalog-block-text.block-7-boots {
+    top: 732px;
+    left: 226px;
+  }
+  .catalog-block-text.block-7-boots br {
+    display: block;
+  }
+  .catalog-block-text.block-8-ammo {
+    top: 233px;
+    left: 24px;
+  }
+  .catalog-block-text.block-9-bag {
+    top: 988px;
+    left: 482px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .catalog-block {
+    width: 1024px;
+    height: 1440px;
+  }
+  .catalog-block-image.image-1024 {
+    display: inline-block;
+  }
+  .catalog-block-text-title {
+    font-size: 39px;
+    line-height: 45px;
+  }
+  .catalog-block-text-count {
+    font-size: 20px;
+    line-height: 52px;
+  }
+  .catalog-block-text.block-1-glasses {
+    top: 422px;
+    left: 600px;
+  }
+  .catalog-block-text.block-1-glasses br {
+    display: block;
+  }
+  .catalog-block-text.block-2-gun {
+    top: 120px;
+    left: 460px;
+  }
+  .catalog-block-text.block-3-binocle {
+    top: 534px;
+    left: 289px;
+  }
+  .catalog-block-text.block-4-pipe {
+    top: 204px;
+    left: 193px;
+  }
+  .catalog-block-text.block-5-jacket {
+    top: 924px;
+    left: 356px;
+  }
+  .catalog-block-text.block-5-jacket br {
+    display: block;
+  }
+  .catalog-block-text.block-6-knife {
+    top: 624px;
+    left: 633px;
+  }
+  .catalog-block-text.block-7-boots {
+    top: 1325px;
+    left: 134px;
+  }
+  .catalog-block-text.block-8-ammo {
+    top: 445px;
+    left: 46px;
+  }
+  .catalog-block-text.block-9-bag {
+    top: 813px;
+    left: 570px;
+  }
+  .catalog-block-text.block-9-bag br {
+    display: block;
+  }
+}
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+  .catalog-block {
+    width: 1200px;
+    height: 1440px;
+  }
+  .catalog-block-image.image-1200 {
+    display: inline-block;
+  }
+  .catalog-block-text-title {
+    font-size: 39px;
+    line-height: 45px;
+  }
+  .catalog-block-text-count {
+    font-size: 20px;
+    line-height: 52px;
+  }
+  .catalog-block-text.block-1-glasses {
+    top: 421px;
+    left: 761px;
+  }
+  .catalog-block-text.block-1-glasses br {
+    display: block;
+  }
+  .catalog-block-text.block-2-gun {
+    top: 119px;
+    left: 611px;
+  }
+  .catalog-block-text.block-3-binocle {
+    top: 534px;
+    left: 380px;
+  }
+  .catalog-block-text.block-4-pipe {
+    top: 203px;
+    left: 204px;
+  }
+  .catalog-block-text.block-5-jacket {
+    top: 923px;
+    left: 398px;
+  }
+  .catalog-block-text.block-5-jacket br {
+    display: block;
+  }
+  .catalog-block-text.block-6-knife {
+    top: 624px;
+    left: 753px;
+  }
+  .catalog-block-text.block-7-boots {
+    top: 1323px;
+    left: 304px;
+  }
+  .catalog-block-text.block-8-ammo {
+    top: 444px;
+    left: 40px;
+  }
+  .catalog-block-text.block-9-bag {
+    top: 811px;
+    left: 762px;
+  }
+  .catalog-block-text.block-9-bag br {
+    display: block;
+  }
+}
+@media screen and (min-width: 1401px) and (max-width: 1800px) {
+  .catalog-block {
+    width: 1400px;
+    height: 1155px;
+  }
+  .catalog-block-image.image-1400 {
+    display: inline-block;
+  }
+  .catalog-block-text-title {
+    font-size: 39px;
+    line-height: 45px;
+  }
+  .catalog-block-text-count {
+    font-size: 20px;
+    line-height: 52px;
+  }
+  .catalog-block-text.block-1-glasses {
+    top: 239px;
+    left: 1170px;
+  }
+  .catalog-block-text.block-1-glasses br {
+    display: block;
+  }
+  .catalog-block-text.block-2-gun {
+    top: 119px;
+    left: 687px;
+  }
+  .catalog-block-text.block-3-binocle {
+    top: 502px;
+    left: 374px;
+  }
+  .catalog-block-text.block-4-pipe {
+    top: 119px;
+    left: 417px;
+  }
+  .catalog-block-text.block-5-jacket {
+    top: 673px;
+    left: 373px;
+  }
+  .catalog-block-text.block-5-jacket br {
+    display: block;
+  }
+  .catalog-block-text.block-6-knife {
+    top: 530px;
+    left: 913px;
+  }
+  .catalog-block-text.block-7-boots {
+    top: 997px;
+    left: 336px;
+  }
+  .catalog-block-text.block-8-ammo {
+    top: 229px;
+    left: 48px;
+  }
+  .catalog-block-text.block-9-bag {
+    top: 669px;
+    left: 943px;
+  }
+  .catalog-block-text.block-9-bag br {
+    display: block;
+  }
+}
+@media screen and (min-width: 1801px) {
+  .catalog-block {
+    width: 1800px;
+    height: 1155px;
+  }
+  .catalog-block-image.image-1800 {
+    display: inline-block;
+  }
+  .catalog-block-text-title {
+    font-size: 39px;
+    line-height: 45px;
+  }
+  .catalog-block-text-count {
+    font-size: 20px;
+    line-height: 52px;
+  }
+  .catalog-block-text.block-1-glasses {
+    top: 241px;
+    left: 1500px;
+  }
+  .catalog-block-text.block-1-glasses br {
+    display: block;
+  }
+  .catalog-block-text.block-2-gun {
+    top: 119px;
+    left: 987px;
+  }
+  .catalog-block-text.block-3-binocle {
+    top: 502px;
+    left: 564px;
+  }
+  .catalog-block-text.block-4-pipe {
+    top: 119px;
+    left: 447px;
+  }
+  .catalog-block-text.block-5-jacket {
+    top: 675px;
+    left: 483px;
+  }
+  .catalog-block-text.block-5-jacket br {
+    display: block;
+  }
+  .catalog-block-text.block-6-knife {
+    top: 530px;
+    left: 1124px;
+  }
+  .catalog-block-text.block-7-boots {
+    top: 999px;
+    left: 516px;
+  }
+  .catalog-block-text.block-8-ammo {
+    top: 230px;
+    left: 228px;
+  }
+  .catalog-block-text.block-9-bag {
+    top: 671px;
+    left: 1304px;
+  }
+  .catalog-block-text.block-9-bag br {
+    display: block;
+  }
+}
+.tabs:not(.row) > * {
+  display: inline-block;
+}
+.tabs-panel:not(.is-active) {
+  display: none !important;
+}
 
-/*# sourceMappingURL=main-d62d5ff4ef08c10d56de2e4619ccde61.css.map*/
+/*# sourceMappingURL=main-ffc4e382b6319eba7d842022bc855a2d.css.map*/
