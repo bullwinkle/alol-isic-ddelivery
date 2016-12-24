@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html ng-app="app" ng-strict-di>
   <head>
-    <title>Articles</title>
+    <title>Каталог</title>
     <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAABPhJREFUeAHtW11y2zYQXsBuX6sblDeI5PShk6QTqheoe4LaJ0h6gjgn6OQElk9Q+b1jsdM004fWZG7AnqDqax0D/RbUnz2KuAD/JMU7QxEksYvdDwtg8SOiT5xUk/anX/cjOjyMiEzsyjH0iJTtrS3Tqilpeu++WZqS0hmnB2//TNy7hn5qBSCN+z36Tx+ToufQN8YV4aqJbOIEKfUrGcpJ65wOP2SDJJtWKaAWAFxNH+hXUOQY1/oarqLlZl4AYDMilZGl94N316PN2e9+rQSAq/EbZ/jLu2K7exr8fu1l02GoqumTfp9u9M/gj0JlbAOfDlEifXJ0gk4qBW8Uwr9NPN4ApM++itHJnW+TEVV08QLAdXbWsNvvDXkBQAeKa77tXr5RsMUAONcnFTeqTQfCxQCQMS860K/xIkXDYDHeuyCnDoVmgcs6URrNy/bXfWnqnQiAWXgbqkOOUeOCSCchcf1yPjEr3pgIc4ZooYy1zxfpgCYqA0BhEhNGI0Rmp2GsBdfgjyxHiq9GSNgHhLilTaoa34jF94QKAVD+7VLrN/fK2spHIQABYz/P73eApADsgClhKjYIwGwVKEyv1riaA8DSCzdlbs2UsIKEAMyWo/zK6GHKPClCaD/GNnMLAVB5oFI9smaSPj0631ZvUBLD0m8eH5OxNUyD4UlWXdDnZlx1MVOitySPCAAWhFr8BzfE6jWRpTEkXXYNhhyAZ0dnWHV9VZP5d8V0CIYYANY4ffo4bXy21jIYfgDwSjB6dmBRX1O46wurTxxJjkmry8Fvf3FzaYS8AGANihXh1hdFCzCseTN4l2V1IuENgAOhGBXOke7VqYxMFu8AWQDhtwP0MdlBALAwN66rTjdGcnTKr6sCEQyAA4E3QzvfGmOPuD0NbRqVAJi7lQt37S2GyA5XjS0BBP9mUQsACyDclpmLFaL5u5bv3ktwtQIwN7YInXkZvQOP8PSERgBYAMEnRA40gKATXO2NGNYMpH1CowDMgeD7bEL1HZIn/Nws8YJsOpSU0RoAc2WWx2gUPCNktXkuqeSu9FCyD9E6AKtqF5se+gTj+Q94H61+q5zGnAKjwvdlcjoFYFW5Yig1DMQxrlr6C8lxma0BYA7GsolYgFFxFBE0g60DYA4E34vTZ3wmIRAIhVD57fXZqsz7aeGa4H22dp55X3DWm4+CSrT0RRmfbHO0TErT3z8zP9KNivyL2WoH9zfngeMBgQcEakdgJ3qJOI57mvRLX+sNjuUkyS/JJr6dGAVg/E82YBKlca4eVA8Aw3g4UYSz+iCIzXHoCRfThwwwT4t0vb+o+WhmPIfH3mT4CH0JeXiAilELMcsr2o1DF0+ahvG3/Bq03EW2KBxR1r/Fe5rCHUuVKfJauLvtgx9TZ75XodukjNsDgDJR/H0ZsgIkBmxBqnDHxfOmRMG3yr0p9/pvKH88EXjmVofC602TvYV/Xkpy7isAeZJcjT5ZACzpU4nxnGfvPABtf1Q29q+Cs2cAqOwquRLX/p55gE0s3Q5Xa1eSrnkYlBRZfx64/eurZHIWInnHmwDXuh7C7YOMZ8DEHsAoW+Kz+aoPvh4zd0dsuLpIksmoqg6wy584Ric66HPICu5HAAaALKNAf4kSDpUpsheGzBhzj1zCIckTBMDHBBfAuH+LR2hbEfJ9CXD4DhIDlGMOkGPihTv9zVPaJidc/wMIs344N5VRJAAAAABJRU5ErkJggg==">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link href="/css/vendor-48ef5bc14760e2aae93f42568d91eeb8.css" rel="stylesheet"><link href="/css/main-f8221628dc8493e27f0924dc897144cf.css" rel="stylesheet"></head>
-  <body id="articles">
+  <body id="catalog">
     <div class="off-canvas-wrapper">
       <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
         <div class="off-canvas position-right f-c-white" id="offCanvas" data-off-canvas data-position="right">
@@ -333,262 +333,243 @@
     </div>
   </div>
 </div>
-          <div class="s-bg-white f-c-black">
-            <div class="container">
-              <div class="row align-middle l-pt-65">
-                <div class="columns">
-                  <div class="mega-title f-c-black s-op-20">Статьи</div>
-                  <div><span class="s-hover-td-u f-sz-14 f-lh-26 f-c-dark-gray s-c-pointer">Нарезное оружие</span><span class="f-c-dark-gray l-plr-5">/</span><span class="s-hover-td-u f-sz-14 f-lh-26 f-c-dark-gray s-c-pointer">Болтовые карабины</span>
+          <div class="container s-zi-9 no-overflow">
+            <div class="row align-middle l-pt-65">
+              <div class="columns">
+                <div class="mega-title f-c-black s-op-20">Аксессуары</div>
+                <div><span class="s-hover-td-u f-sz-14 f-lh-26 f-c-dark-gray s-c-pointer">Прочие аксессуары</span><span class="f-c-dark-gray l-plr-5">/</span><span class="s-hover-td-u f-sz-14 f-lh-26 f-c-dark-gray s-c-pointer">Ремни оружейные</span>
+                </div>
+                <div class="l-pt-20 hide-for-large"></div>
+              </div>
+              <div class="columns shrink s-bg-white s-bd-1 s-bd-light-gray">
+                <div class="row">
+                  <div class="columns shrinksf l-ptb-25 filter-item">
+                    <div class="filter-item-inner">Бренд
+                      <div class="filter-item-badge">30</div>
+                    </div>
+                    <div class="filter-item-dropdown">
+                      <div class="row small-up-2">
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row l-mt-25">
+                        <div class="columns">
+                          <div class="f-sz-14 s-c-pointer">Сбросить все  X</div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                  <div class="l-pt-20 hide-for-large"></div>
+                  <div class="columns shrinksf l-ptb-25 filter-item">
+                    <div class="filter-item-inner">Калибр</div>
+                    <div class="filter-item-dropdown">
+                      <div class="row small-up-2">
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row l-mt-25">
+                        <div class="columns">
+                          <div class="f-sz-14 s-c-pointer">Сбросить все  X</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columns shrinksf l-ptb-25 filter-item">
+                    <div class="filter-item-inner">Длина ствола</div>
+                    <div class="filter-item-dropdown">
+                      <div class="row small-up-2">
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row l-mt-25">
+                        <div class="columns">
+                          <div class="f-sz-14 s-c-pointer">Сбросить все  X</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columns shrinksf l-ptb-25 filter-item">
+                    <div class="filter-item-inner">Назначение</div>
+                    <div class="filter-item-dropdown">
+                      <div class="row small-up-2">
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row l-mt-25">
+                        <div class="columns">
+                          <div class="f-sz-14 s-c-pointer">Сбросить все  X</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="columns shrinksf l-ptb-25 filter-item">
+                    <div class="filter-item-inner">Вес</div>
+                    <div class="filter-item-dropdown">
+                      <div class="row small-up-2">
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                      </div>
+                      <div class="row l-mt-25">
+                        <div class="columns">
+                          <div class="f-sz-14 s-c-pointer">Сбросить все  X</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="row small-up-1 medium-up-2 l-mb-30">
-                <div class="columns small-order-2 large-order-1">
-                  <div class="l-pt-70 show-for-large"></div>
-                  <div class="l-mb-15 f-sz-24 f-lh-36 f-c-black f-w-900 f-upper">
-                    Родина компании — Брешия — один из самых
-                    известных в мире «оружейных» регионов. 
-                    
-                  </div>
-                  <div class="f-sz-14 f-lh-24 f-roboto f-w-300 f-upper f-c-secondary">Охота, оптика</div>
-                  <div class="l-mb-40 show-for-large"></div>
-                  <div class="l-mb-15 f-sz f-sz-14 f-lh-26 f-roboto">
-                    Коммерчески развитый город, находящийся в центре одного из наиболее богатых районов Италии,
-                    здесь, как и везде в этой чудесной стране, непостижимым образом уживается богатейшая
-                    многовековая история и технократическая современность. Коммерчески развитый город,
-                    находящийся в центре одного из наиболее богатых районов Италии, здесь, как и везде
-                    в этой чудесной стране, непостижимым образом уживается богатейшая многовековая история
-                    и технократическая современность.
-                  </div>
-                  <div class="l-mb-30 f-sz f-sz-14 f-lh-24 f-roboto f-w-100 f-italic f-c-secondary">12 мая ’16</div><a class="f-sz f-sz-14 f-lh-26 f-roboto f-w-400 f-c-primary" href="/article.html">Читать
-                    <div class="icon m-arrow-right l-w-50 l-h-25"></div></a>
-                </div>
-                <div class="columns small-order-1 medium-order-2">
-                  <div class="l-h-100p l-w-100p l-minh-300 s-bg-img s-bg-cover" style="background-image:url(/assets/images/article-1-d68f9957b9c3b3a7ff1ad4d50b82bfec.jpg)"></div>
-                </div>
-              </div>
-              <div class="row l-mb-30 small-up-1 medium-up-2 xlarge-up-4">
-                <div class="columns l-mb-30">
-                  <div class="card s-bg-white">
-                    <div class="l-h-300 s-bg-img s-bg-cover" style="background-image:url(/assets/images/article-2-d4beb30fdb5b16bb9fba9b3977b0463d.jpg)"></div>
-                    <div class="l-pt-30 l-plr-40 l-pb-40">
-                      <div class="l-mb-15 f-sz-21 f-lh-26 f-c-black f-w-900 f-upper">
-                        О Swarovski
-                        
-                      </div>
-                      <div class="l-mb-20 f-sz-14 f-lh-24 f-roboto f-w-300 f-upper f-c-secondary">Охота, оптика</div>
-                      <div class="l-mb-15 f-sz f-sz-14 f-lh-26 f-roboto s-line-clamp s-line-clamp-6">
-                        Коммерчески развитый город, находящийся в центре одного из наиболее богатых районов Италии,
-                        здесь, как и везде в этой чудесной стране, непостижимым образом уживается богатейшая
-                        многовековая история и технократическая современность. Коммерчески развитый город,
-                        находящийся в центре одного из наиболее богатых районов Италии, здесь, как и везде
-                        в этой чудесной стране, непостижимым образом уживается богатейшая многовековая история
-                        и технократическая современность.
-                      </div>
-                      <div class="l-mb-25 f-sz f-sz-14 f-lh-24 f-roboto f-w-100 f-italic f-c-secondary">12 мая ’16</div><a class="f-sz f-sz-14 f-lh-26 f-roboto f-w-400 f-c-primary" href="/article.html">Читать
-                        <div class="icon m-arrow-right l-w-50 l-h-25"></div></a>
+              <div class="columns shrink l-ml-45 s-bg-white s-bd-1 s-bd-light-gray">
+                <div class="row">
+                  <div class="columns shrinksf l-ptb-25 filter-item">
+                    <div class="filter-item-inner">По цене
+                      <div class="filter-item-label">Сортировать:</div>
                     </div>
-                  </div>
-                </div>
-                <div class="columns l-mb-30">
-                  <div class="card s-bg-white">
-                    <div class="l-h-300 s-bg-img s-bg-cover" style="background-image:url(/assets/images/article-3-696f1f69fb72ebe793130f9ee9da8c8e.jpg)"></div>
-                    <div class="l-pt-30 l-plr-40 l-pb-40">
-                      <div class="l-mb-15 f-sz-21 f-lh-26 f-c-black f-w-900 f-upper">
-                        О Swarovski
-                        
+                    <div class="filter-item-dropdown to-left">
+                      <div class="row small-up-2">
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
+                        <div class="columns">
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                          <label class="l-block l-mb-20">
+                            <input type="checkbox">610мм
+                          </label>
+                        </div>
                       </div>
-                      <div class="l-mb-20 f-sz-14 f-lh-24 f-roboto f-w-300 f-upper f-c-secondary">Охота, оптика</div>
-                      <div class="l-mb-15 f-sz f-sz-14 f-lh-26 f-roboto s-line-clamp s-line-clamp-6">
-                        Коммерчески развитый город, находящийся в центре одного из наиболее богатых районов Италии,
-                        здесь, как и везде в этой чудесной стране, непостижимым образом уживается богатейшая
-                        многовековая история и технократическая современность. Коммерчески развитый город,
-                        находящийся в центре одного из наиболее богатых районов Италии, здесь, как и везде
-                        в этой чудесной стране, непостижимым образом уживается богатейшая многовековая история
-                        и технократическая современность.
+                      <div class="row l-mt-25">
+                        <div class="columns">
+                          <div class="f-sz-14 s-c-pointer">Сбросить все  X</div>
+                        </div>
                       </div>
-                      <div class="l-mb-25 f-sz f-sz-14 f-lh-24 f-roboto f-w-100 f-italic f-c-secondary">12 мая ’16</div><a class="f-sz f-sz-14 f-lh-26 f-roboto f-w-400 f-c-primary" href="/article.html">Читать
-                        <div class="icon m-arrow-right l-w-50 l-h-25"></div></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="columns l-mb-30">
-                  <div class="card s-bg-white">
-                    <div class="l-h-300 s-bg-img s-bg-cover" style="background-image:url(/assets/images/article-2-d4beb30fdb5b16bb9fba9b3977b0463d.jpg)"></div>
-                    <div class="l-pt-30 l-plr-40 l-pb-40">
-                      <div class="l-mb-15 f-sz-21 f-lh-26 f-c-black f-w-900 f-upper">
-                        О Swarovski
-                        
-                      </div>
-                      <div class="l-mb-20 f-sz-14 f-lh-24 f-roboto f-w-300 f-upper f-c-secondary">Охота, оптика</div>
-                      <div class="l-mb-15 f-sz f-sz-14 f-lh-26 f-roboto s-line-clamp s-line-clamp-6">
-                        Коммерчески развитый город, находящийся в центре одного из наиболее богатых районов Италии,
-                        здесь, как и везде в этой чудесной стране, непостижимым образом уживается богатейшая
-                        многовековая история и технократическая современность. Коммерчески развитый город,
-                        находящийся в центре одного из наиболее богатых районов Италии, здесь, как и везде
-                        в этой чудесной стране, непостижимым образом уживается богатейшая многовековая история
-                        и технократическая современность.
-                      </div>
-                      <div class="l-mb-25 f-sz f-sz-14 f-lh-24 f-roboto f-w-100 f-italic f-c-secondary">12 мая ’16</div><a class="f-sz f-sz-14 f-lh-26 f-roboto f-w-400 f-c-primary" href="/article.html">Читать
-                        <div class="icon m-arrow-right l-w-50 l-h-25"></div></a>
-                    </div>
-                  </div>
-                </div>
-                <div class="columns l-mb-30">
-                  <div class="card s-bg-white">
-                    <div class="l-h-300 s-bg-img s-bg-cover" style="background-image:url(/assets/images/article-3-696f1f69fb72ebe793130f9ee9da8c8e.jpg)"></div>
-                    <div class="l-pt-30 l-plr-40 l-pb-40">
-                      <div class="l-mb-15 f-sz-21 f-lh-26 f-c-black f-w-900 f-upper">
-                        О Swarovski
-                        
-                      </div>
-                      <div class="l-mb-20 f-sz-14 f-lh-24 f-roboto f-w-300 f-upper f-c-secondary">Охота, оптика</div>
-                      <div class="l-mb-15 f-sz f-sz-14 f-lh-26 f-roboto s-line-clamp s-line-clamp-6">
-                        Коммерчески развитый город, находящийся в центре одного из наиболее богатых районов Италии,
-                        здесь, как и везде в этой чудесной стране, непостижимым образом уживается богатейшая
-                        многовековая история и технократическая современность. Коммерчески развитый город,
-                        находящийся в центре одного из наиболее богатых районов Италии, здесь, как и везде
-                        в этой чудесной стране, непостижимым образом уживается богатейшая многовековая история
-                        и технократическая современность.
-                      </div>
-                      <div class="l-mb-25 f-sz f-sz-14 f-lh-24 f-roboto f-w-100 f-italic f-c-secondary">12 мая ’16</div><a class="f-sz f-sz-14 f-lh-26 f-roboto f-w-400 f-c-primary" href="/article.html">Читать
-                        <div class="icon m-arrow-right l-w-50 l-h-25"></div></a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="s-bg-black-08 f-c-white">
-            <div class="container">
-              <div class="row small-up-1 medium-up-2 l-pt-120 l-pb-65">
-                <div class="columns l-mb-30">
-                  <div class="row small-up-1 medium-up-1 large-up-2">
-                    <div class="columns l-mb-20">
-                      <div class="flex-video widescreen">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/DT4HnpGa1fU" frameborder="0" allowfullscreen></iframe>
-                      </div>
-                    </div>
-                    <div class="columns">
-                      <div class="l-mb-35 f-c-alert f-sz-14 f-lh-24 f-roboto">12 мая ‘16</div>
-                      <div class="l-mb-40 f-c-white f-sz-21 f-lh-26 f-w-900 f-upper">
-                        Эксклюзивное
-                        оружие
-                        Sauer (Зауэр)
-                      </div>
-                      <div class="l-mb-25 s-line-clamp s-line-clamp-4 s-ov-h f-sz-14 f-lh-26 f-c-secondary s-line-clamp s-line-clamp-5">
-                        Отправляясь в горы, охотник всегда мысленно готовится ко всевозможным
-                        трудностям, ведь горная охота, как, пожалуй, никакая другая, полна трудностей и
-                        неожиданностей. Но Джон Свин, немецкий охотник, уходя на сою самую памятную охоту,
-                        ТАКОГО исхода предугадать все же не мог – он потерял свой карабин и установленный
-                        на него прицел Zeiss. Прошло много лет, и в результате целой цепи всевозможных событий
-                        пропажу все же нашли. Надо сказать, что карабин не выдержал многолетнего испытания жизнью
-                        без хозяина – дерево оказалось сильно повреждено, металлические части заржавел и пришли в
-                        негодность, а вот прицел Zeiss не просто выжил, но и сохранил все свои технические
-                        возможности! Не были повреждены ни покрытие прицела, ни его оптическая система!
-                        Его испытали, и оказалось, что он успешно функционирует - безо всякого ремонта!
-                        Что ж, мы лишний раз получили подтверждение выдающихся данных продукции компании Zeiss.
-                        
-                      </div>
-                      <div class="icon m-youtube l-w-55 l-h-20"></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="columns l-mb-30">
-                  <div class="row small-up-1 medium-up-1 large-up-2">
-                    <div class="columns l-mb-20">
-                      <div class="flex-video widescreen">
-                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/DT4HnpGa1fU" frameborder="0" allowfullscreen></iframe>
-                      </div>
-                    </div>
-                    <div class="columns">
-                      <div class="l-mb-35 f-c-alert f-sz-14 f-lh-24 f-roboto">12 мая ‘16</div>
-                      <div class="l-mb-40 f-c-white f-sz-21 f-lh-26 f-w-900 f-upper">
-                        Эксклюзивное
-                        оружие
-                        Sauer (Зауэр)
-                      </div>
-                      <div class="l-mb-25 s-line-clamp s-line-clamp-4 s-ov-h f-sz-14 f-lh-26 f-c-secondary s-line-clamp s-line-clamp-5">
-                        Отправляясь в горы, охотник всегда мысленно готовится ко всевозможным
-                        трудностям, ведь горная охота, как, пожалуй, никакая другая, полна трудностей и
-                        неожиданностей. Но Джон Свин, немецкий охотник, уходя на сою самую памятную охоту,
-                        ТАКОГО исхода предугадать все же не мог – он потерял свой карабин и установленный
-                        на него прицел Zeiss. Прошло много лет, и в результате целой цепи всевозможных событий
-                        пропажу все же нашли. Надо сказать, что карабин не выдержал многолетнего испытания жизнью
-                        без хозяина – дерево оказалось сильно повреждено, металлические части заржавел и пришли в
-                        негодность, а вот прицел Zeiss не просто выжил, но и сохранил все свои технические
-                        возможности! Не были повреждены ни покрытие прицела, ни его оптическая система!
-                        Его испытали, и оказалось, что он успешно функционирует - безо всякого ремонта!
-                        Что ж, мы лишний раз получили подтверждение выдающихся данных продукции компании Zeiss.
-                        
-                      </div>
-                      <div class="icon m-youtube l-w-55 l-h-20"></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="container no-overflow l-pt-40 l-pb-100">
+            <div class="row l-pt-65 small-up-1 medium-up-2 large-up-3">
+              <div class="columns l-ptb-5 l-mb-35 l-p-r card m-category"><a class="card m-category-inner l-inline l-plr-60 l-pt-60 f-c-black s-bg-img s-ov-h" href="/catalog.html"><span class="f-sz-30 f-lh-36 s-zi-5">Ремни оружейные</span><img class="category-image s-zi-1" src="/assets/images/catalog-categories/1-35cfcaa819656bb6fec9e07ed0ef023d.png" style="left:0px;bottom:-50px"></a></div>
+              <div class="columns l-ptb-5 l-mb-35 l-p-r card m-category"><a class="card m-category-inner l-inline l-plr-60 l-pt-60 f-c-black s-bg-img s-ov-h" href="/catalog.html"><span class="f-sz-30 f-lh-36 s-zi-5">Чехлы оружейные</span><img class="category-image s-zi-1" src="/assets/images/catalog-categories/2-03d1e338822c0e4ea2df95b4725e7981.png" style="left:80px;bottom:10px"></a></div>
+              <div class="columns l-ptb-5 l-mb-35 l-p-r card m-category"><a class="card m-category-inner l-inline l-plr-60 l-pt-60 f-c-black s-bg-img s-ov-h" href="/catalog.html"><span class="f-sz-30 f-lh-36 s-zi-5">Кейсы оружейные</span><img class="category-image s-zi-1" src="/assets/images/catalog-categories/3-3af02ad06af82d0577b53a7d2e32715d.png" style="left:-80px;bottom:-160px"></a></div>
+              <div class="columns l-ptb-5 l-mb-35 l-p-r card m-category"><a class="card m-category-inner l-inline l-plr-60 l-pt-60 f-c-black s-bg-img s-ov-h" href="/catalog.html"><span class="f-sz-30 f-lh-36 s-zi-5">Патронташи оружейные</span><img class="category-image s-zi-1" src="/assets/images/catalog-categories/4-8669357a7d0893b2510fed11870d00b5.png" style="left:0px;bottom:-110px"></a></div>
+              <div class="columns l-ptb-5 l-mb-35 l-p-r card m-category"><a class="card m-category-inner l-inline l-plr-60 l-pt-60 f-c-black s-bg-img s-ov-h" href="/catalog.html"><span class="f-sz-30 f-lh-36 s-zi-5">Аксессуары для спортинга</span><img class="category-image s-zi-1" src="/assets/images/catalog-categories/5-1cde401ff535ed31a59be3b48bb0ed1e.png" style="left:0px;bottom:-112px"></a></div>
+              <div class="columns l-ptb-5 l-mb-35 l-p-r card m-category"><a class="card m-category-inner l-inline l-plr-60 l-pt-60 f-c-black s-bg-img s-ov-h" href="/catalog.html"><span class="f-sz-30 f-lh-36 s-zi-5">Аксессуары для оптики</span><img class="category-image s-zi-1" src="/assets/images/catalog-categories/6-5196a42426d7928c34d3cdd0780ed1de.png" style="left:0px;bottom:-90px"></a></div>
+              <div class="columns l-ptb-5 l-mb-35 l-p-r card m-category"><a class="card m-category-inner l-inline l-plr-60 l-pt-60 f-c-black s-bg-img s-ov-h" href="/catalog.html"><span class="f-sz-30 f-lh-36 s-zi-5">Кронштейны</span><img class="category-image s-zi-1" src="/assets/images/catalog-categories/7-d7b08b926986553c2179503f8bba81a3.png" style="left:110px;bottom:-160px"></a></div>
             </div>
-          </div>
-          <div class="l-mb-70"></div>
-          <div class="container f-c-black">
-            <div class="row small-up-1 large-up-2 collapse-lr">
-              <div class="columns">
-                <div class="card s-bg-white">
-                  <div class="l-h-300 s-bg-img s-bg-cover" style="background-image:url(/assets/images/article-2-d4beb30fdb5b16bb9fba9b3977b0463d.jpg)"></div>
-                  <div class="l-ptb-30 l-plr-40">
-                    <div class="l-mb-15 f-sz-21 f-lh-26 f-c-black f-w-900 f-upper">
-                      О Swarovski
-                      
-                    </div>
-                    <div class="l-mb-20 f-sz-14 f-lh-24 f-roboto f-w-300 f-upper f-c-secondary">Охота, оптика</div>
-                    <div class="l-mb-15 f-sz f-sz-14 f-lh-26 f-roboto s-line-clamp s-line-clamp-3">
-                      Коммерчески развитый город, находящийся в центре одного из наиболее богатых районов Италии,
-                      здесь, как и везде в этой чудесной стране, непостижимым образом уживается богатейшая
-                      многовековая история и технократическая современность. Коммерчески развитый город,
-                      находящийся в центре одного из наиболее богатых районов Италии, здесь, как и везде
-                      в этой чудесной стране, непостижимым образом уживается богатейшая многовековая история
-                      и технократическая современность.
-                    </div>
-                    <div class="l-mb-25 f-sz f-sz-14 f-lh-24 f-roboto f-w-100 f-italic f-c-secondary">12 мая ’16</div><a class="f-sz f-sz-14 f-lh-26 f-roboto f-w-400 f-c-primary" href="/article.html">Читать
-                      <div class="icon m-arrow-right l-w-50 l-h-25"></div></a>
-                  </div>
-                </div>
-                <div class="l-mb-25 show-for-small-only"></div>
-              </div>
-              <div class="columns">
-                <div class="card s-bg-white">
-                  <div class="l-h-300 s-bg-img s-bg-cover" style="background-image:url(/assets/images/article-3-696f1f69fb72ebe793130f9ee9da8c8e.jpg)"></div>
-                  <div class="l-ptb-30 l-plr-40">
-                    <div class="l-mb-15 f-sz-21 f-lh-26 f-c-black f-w-900 f-upper">
-                      О Swarovski
-                      
-                    </div>
-                    <div class="l-mb-20 f-sz-14 f-lh-24 f-roboto f-w-300 f-upper f-c-secondary">Охота, оптика</div>
-                    <div class="l-mb-15 f-sz f-sz-14 f-lh-26 f-roboto s-line-clamp s-line-clamp-3">
-                      Коммерчески развитый город, находящийся в центре одного из наиболее богатых районов Италии,
-                      здесь, как и везде в этой чудесной стране, непостижимым образом уживается богатейшая
-                      многовековая история и технократическая современность. Коммерчески развитый город,
-                      находящийся в центре одного из наиболее богатых районов Италии, здесь, как и везде
-                      в этой чудесной стране, непостижимым образом уживается богатейшая многовековая история
-                      и технократическая современность.
-                    </div>
-                    <div class="l-mb-25 f-sz f-sz-14 f-lh-24 f-roboto f-w-100 f-italic f-c-secondary">12 мая ’16</div><a class="f-sz f-sz-14 f-lh-26 f-roboto f-w-400 f-c-primary" href="/article.html">Читать
-                      <div class="icon m-arrow-right l-w-50 l-h-25"></div></a>
-                  </div>
-                </div>
-                <div class="l-mb-25 show-for-small-only"></div>
-              </div>
-            </div>
-            <div class="row s-bg-white">
-              <div class="colums small-offset-1 small-10 medium-offset-2 medium-8 large-offset-3 large-6">
-                <div class="l-pt-40 l-pb-120 f-sz-14 f-lh-32 f-roboto f-w-400 f-center">
-                  Жизнь на берегу: портреты искательнtиц моллюсков со стажем Южнокорейский фотограф Хен-Сун Ким
-                  снимает пожилых хэнё — ныряльщиц за морскими деликатесами. Жизнь на берегу: портреты искательниц
-                  моллюсков со стажем Южнокорейский фотограф Хен-Сун Ким снимает пожилых хэнё — ныряльщиц
-                  за морскими деликатесами.
-                </div>
-              </div>
+            <div class="row align-middle align-center"><a class="columns shrink" href="#page0"><img src="/assets/icons/arrow2-left-87a7268a668534952e2b9fb1859e78f9.png" width="50" height="15"></a><a class="columns shrink f-sz-18 f-lh-26 f-c-black" href="#page1"><span class="l-block l-plr-15">1</span></a><a class="columns shrink f-sz-31 f-lh-26 f-c-black" href="#page2"><span class="l-block l-plr-15">2</span></a><a class="columns shrink f-sz-18 f-lh-26 f-c-black" href="#page3"><span class="l-block l-plr-15">3</span></a><a class="columns shrink f-sz-18 f-lh-26 f-c-black" href="#page4"><span class="l-block l-plr-15">4</span></a><a class="columns shrink f-sz-18 f-lh-26 f-c-black" href="#page5"><span class="l-block l-plr-15">5</span></a><a class="columns shrink f-sz-18 f-lh-26 f-c-black" href="#page6"><span class="l-block l-plr-15">6</span></a><a class="columns shrink" href="#page7"><img src="/assets/icons/arrow2-right-4f10ae0f0e9256e769fb335acdb67390.png" width="50" height="15"></a>
             </div>
           </div>
 <footer>
