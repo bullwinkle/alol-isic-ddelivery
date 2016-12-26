@@ -39773,6 +39773,11 @@ input[type=checkbox].m-2:checked + .label-text {
     padding-right: 50px !important;
   }
 }
+.filter-item-dropdown label input[type="checkbox"],
+.filter-item-dropdown label input[type="checkbox"]+.label-text {
+  display: inline-block;
+  vertical-align: middle;
+}
 .filter-item:hover {
   color: #fff;
   background-color: #1c1c24;
@@ -40459,4 +40464,4 @@ input[type=range]:focus::-ms-fill-upper {
   background: none transparent;
 }
 
-/*# sourceMappingURL=main-8c08f7878e5d23a6a0d389a95c8bebdc.css.map*/
+/*# sourceMappingURL=main-10b30dada538f14cadedadeb7ded9bfd.css.map*/
