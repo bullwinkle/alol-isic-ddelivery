@@ -1,16 +1,16 @@
 webpackJsonp([1,4],{
 
-/***/ 1150:
+/***/ 1144:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 1151:
+/***/ 1145:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(644);
+module.exports = __webpack_require__(642);
 
 
 /***/ }),
@@ -110,8 +110,8 @@ var PersonalAreaLayoutComponent = (function () {
     PersonalAreaLayoutComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-personal-area-layout',
-            template: __webpack_require__(872),
-            styles: [__webpack_require__(793)]
+            template: __webpack_require__(871),
+            styles: [__webpack_require__(792)]
         }), 
         __metadata('design:paramtypes', [])
     ], PersonalAreaLayoutComponent);
@@ -127,7 +127,7 @@ var PersonalAreaLayoutComponent = (function () {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_http__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_settings__ = __webpack_require__(576);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ApiService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -250,8 +250,8 @@ var ChatsLayoutComponent = (function () {
     ChatsLayoutComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-chats-layout',
-            template: __webpack_require__(868),
-            styles: [__webpack_require__(789)]
+            template: __webpack_require__(867),
+            styles: [__webpack_require__(788)]
         }), 
         __metadata('design:paramtypes', [])
     ], ChatsLayoutComponent);
@@ -266,9 +266,9 @@ var ChatsLayoutComponent = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(608);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_socket_io_client__ = __webpack_require__(636);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_socket_io_client__ = __webpack_require__(635);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_socket_io_client___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_socket_io_client__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Ws; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -513,8 +513,8 @@ var FeedLayoutComponent = (function () {
     FeedLayoutComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-feed-layout',
-            template: __webpack_require__(869),
-            styles: [__webpack_require__(790)]
+            template: __webpack_require__(868),
+            styles: [__webpack_require__(789)]
         }), 
         __metadata('design:paramtypes', [])
     ], FeedLayoutComponent);
@@ -553,8 +553,8 @@ var NotFoundComponent = (function () {
     NotFoundComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-not-found',
-            template: __webpack_require__(871),
-            styles: [__webpack_require__(792)]
+            template: __webpack_require__(870),
+            styles: [__webpack_require__(791)]
         }),
         __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Inject */])('APP_SETTINGS')), 
         __metadata('design:paramtypes', [Object])
@@ -589,8 +589,8 @@ var RootPageComponent = (function () {
     RootPageComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-root-page',
-            template: __webpack_require__(873),
-            styles: [__webpack_require__(794)]
+            template: __webpack_require__(872),
+            styles: [__webpack_require__(793)]
         }), 
         __metadata('design:paramtypes', [])
     ], RootPageComponent);
@@ -605,7 +605,7 @@ var RootPageComponent = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_socket_io_client__ = __webpack_require__(636);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_socket_io_client__ = __webpack_require__(635);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_socket_io_client___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_socket_io_client__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WsApiService; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -638,7 +638,7 @@ var WsApiService = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api_service__ = __webpack_require__(316);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WsService; });
 var __extends = (this && this.__extends) || function (d, b) {
@@ -692,7 +692,7 @@ var WsService = (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__shared_ws_api_service__ = __webpack_require__(582);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_ws__ = __webpack_require__(578);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return WsnComponent; });
@@ -961,8 +961,8 @@ var WsnComponent = (function () {
     WsnComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-wsn',
-            template: __webpack_require__(874),
-            styles: [__webpack_require__(795)]
+            template: __webpack_require__(873),
+            styles: [__webpack_require__(794)]
         }),
         __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Inject */])('APP_SETTINGS')), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__shared_ws_api_service__["a" /* WsApiService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_ws_api_service__["a" /* WsApiService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__core_ws__["a" /* Ws */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__core_ws__["a" /* Ws */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */]) === 'function' && _c) || Object, Object])
@@ -974,7 +974,7 @@ var WsnComponent = (function () {
 
 /***/ }),
 
-/***/ 643:
+/***/ 641:
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -983,21 +983,21 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 643;
+webpackEmptyContext.id = 641;
 
 
 /***/ }),
 
-/***/ 644:
+/***/ 642:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__polyfills_ts__ = __webpack_require__(260);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(730);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__ = __webpack_require__(728);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(774);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_app_module__ = __webpack_require__(761);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__environments_environment__ = __webpack_require__(772);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__app_app_module__ = __webpack_require__(759);
 
 
 
@@ -1013,7 +1013,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dyna
 
 /***/ }),
 
-/***/ 760:
+/***/ 758:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1036,8 +1036,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-root',
-            template: __webpack_require__(867),
-            styles: [__webpack_require__(788)]
+            template: __webpack_require__(866),
+            styles: [__webpack_require__(787)]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -1047,21 +1047,21 @@ var AppComponent = (function () {
 
 /***/ }),
 
-/***/ 761:
+/***/ 759:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(239);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_platform_browser__ = __webpack_require__(240);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_settings__ = __webpack_require__(576);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_core_module__ = __webpack_require__(764);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared_module__ = __webpack_require__(771);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_router__ = __webpack_require__(762);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__personal_area_personal_area_module__ = __webpack_require__(767);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__feed_feed_module__ = __webpack_require__(765);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__chats_chats_module__ = __webpack_require__(763);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(760);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__main_menu_main_menu_component__ = __webpack_require__(766);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_core_module__ = __webpack_require__(762);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__shared_shared_module__ = __webpack_require__(769);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_router__ = __webpack_require__(760);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__personal_area_personal_area_module__ = __webpack_require__(765);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__feed_feed_module__ = __webpack_require__(763);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__chats_chats_module__ = __webpack_require__(761);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__app_component__ = __webpack_require__(758);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__main_menu_main_menu_component__ = __webpack_require__(764);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__root_page_root_page_component__ = __webpack_require__(581);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__not_found_not_found_component__ = __webpack_require__(580);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__wsn_wsn_component__ = __webpack_require__(584);
@@ -1127,7 +1127,7 @@ var AppModule = (function () {
 
 /***/ }),
 
-/***/ 762:
+/***/ 760:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1203,7 +1203,7 @@ var AppRouterModule = (function () {
 
 /***/ }),
 
-/***/ 763:
+/***/ 761:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1241,7 +1241,7 @@ var ChatsModule = (function () {
 
 /***/ }),
 
-/***/ 764:
+/***/ 762:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1290,7 +1290,7 @@ var CoreModule = (function () {
 
 /***/ }),
 
-/***/ 765:
+/***/ 763:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1328,7 +1328,7 @@ var FeedModule = (function () {
 
 /***/ }),
 
-/***/ 766:
+/***/ 764:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1374,8 +1374,8 @@ var MainMenuComponent = (function () {
     MainMenuComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-main-menu',
-            template: __webpack_require__(870),
-            styles: [__webpack_require__(791)]
+            template: __webpack_require__(869),
+            styles: [__webpack_require__(790)]
         }), 
         __metadata('design:paramtypes', [])
     ], MainMenuComponent);
@@ -1385,13 +1385,13 @@ var MainMenuComponent = (function () {
 
 /***/ }),
 
-/***/ 767:
+/***/ 765:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_common__ = __webpack_require__(62);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__personal_area_router__ = __webpack_require__(768);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__personal_area_router__ = __webpack_require__(766);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__personal_area_layout_personal_area_layout_component__ = __webpack_require__(315);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PersonalAreaModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -1428,7 +1428,7 @@ var PersonalAreaModule = (function () {
 
 /***/ }),
 
-/***/ 768:
+/***/ 766:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1474,13 +1474,13 @@ var PersonalAreaRouterModule = (function () {
 
 /***/ }),
 
-/***/ 769:
+/***/ 767:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(863);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(861);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__http_service__ = __webpack_require__(770);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__http_service__ = __webpack_require__(768);
 /* harmony export (immutable) */ __webpack_exports__["a"] = HttpFactory;
 
 var merge = __WEBPACK_IMPORTED_MODULE_0_lodash__["merge"];
@@ -1498,12 +1498,12 @@ function HttpFactory(xhrBackend, baseRequestOptions) {
 
 /***/ }),
 
-/***/ 770:
+/***/ 768:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(128);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(129);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api_service__ = __webpack_require__(316);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HttpService; });
 var __extends = (this && this.__extends) || function (d, b) {
@@ -1555,19 +1555,19 @@ var HttpService = (function (_super) {
 
 /***/ }),
 
-/***/ 771:
+/***/ 769:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(721);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_http__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(719);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ws_api_service__ = __webpack_require__(582);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ws_service__ = __webpack_require__(583);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ws_backend__ = __webpack_require__(772);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__http_factory__ = __webpack_require__(769);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ws_factory__ = __webpack_require__(773);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ws_backend__ = __webpack_require__(770);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__http_factory__ = __webpack_require__(767);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ws_factory__ = __webpack_require__(771);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SharedModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1622,12 +1622,12 @@ var SharedModule = (function () {
 
 /***/ }),
 
-/***/ 772:
+/***/ 770:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(609);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_http__ = __webpack_require__(129);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs__ = __webpack_require__(608);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__api_service__ = __webpack_require__(316);
 /* unused harmony export WsConnection */
@@ -1659,7 +1659,7 @@ var WsConnectionBackend = (function () {
 
 /***/ }),
 
-/***/ 773:
+/***/ 771:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1677,7 +1677,7 @@ function WsFactory(backend, baseRequestOptions) {
 
 /***/ }),
 
-/***/ 774:
+/***/ 772:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1693,10 +1693,10 @@ var environment = {
 
 /***/ }),
 
-/***/ 788:
+/***/ 787:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(91)();
+exports = module.exports = __webpack_require__(70)();
 // imports
 
 
@@ -1711,10 +1711,28 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
+/***/ 788:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(70)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
 /***/ 789:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(91)();
+exports = module.exports = __webpack_require__(70)();
 // imports
 
 
@@ -1732,25 +1750,7 @@ module.exports = module.exports.toString();
 /***/ 790:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(91)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 791:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(91)();
+exports = module.exports = __webpack_require__(70)();
 // imports
 
 
@@ -1765,10 +1765,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 792:
+/***/ 791:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(91)();
+exports = module.exports = __webpack_require__(70)();
 // imports
 
 
@@ -1783,10 +1783,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 793:
+/***/ 792:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(91)();
+exports = module.exports = __webpack_require__(70)();
 // imports
 
 
@@ -1801,10 +1801,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 794:
+/***/ 793:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(91)();
+exports = module.exports = __webpack_require__(70)();
 // imports
 
 
@@ -1819,10 +1819,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 795:
+/***/ 794:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(91)();
+exports = module.exports = __webpack_require__(70)();
 // imports
 
 
@@ -1837,61 +1837,61 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 867:
+/***/ 866:
 /***/ (function(module, exports) {
 
 module.exports = "<header>\n  <div class=\"row align-middle\">\n    <div class=\"column\">\n\n      <h1 class=\"title\">\n        <a routerLink=\"/\">{{title}}</a>\n      </h1>\n\n    </div>\n    <div class=\"column shrink\">\n\n      <div class=\"user-menu\">\n        <div class=\"row align-middle collapse\">\n          <div class=\"column\">\n            <div class=\"user-name\">Александра</div>\n          </div>\n          <div class=\"column\">\n            <div class=\"avatar\">\n              <div class=\"img\" style=\"background-image:url('assets/fake/ava.jpg')\"></div>\n            </div>\n          </div>\n          <div class=\"column\">\n            <div class=\"arrow-down\"></div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n</header>\n\n<main>\n  <div class=\"row\">\n    <div class=\"columns shrink\">\n\n      <app-main-menu></app-main-menu>\n\n    </div>\n    <div class=\"columns\">\n\n      <router-outlet></router-outlet>\n\n    </div>\n  </div>\n\n</main>\n\n<footer></footer>\n\n\n"
 
 /***/ }),
 
-/***/ 868:
+/***/ 867:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  chats-layout works!\n</p>\n"
 
 /***/ }),
 
-/***/ 869:
+/***/ 868:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  feed-layout works!\n</p>\n"
 
 /***/ }),
 
-/***/ 870:
+/***/ 869:
 /***/ (function(module, exports) {
 
 module.exports = "<menu>\n  <ul>\n    <li *ngFor=\"let link of links\">\n      <a routerLinkActive=\"active\" [routerLink]=\"link.path\">{{link.title}}</a>\n    </li>\n  </ul>\n</menu>\n"
 
 /***/ }),
 
-/***/ 871:
+/***/ 870:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  404 NOT FOUND !\n</p>\n"
 
 /***/ }),
 
-/***/ 872:
+/***/ 871:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"column shrink column-left\">\n    <div class=\"panel user-info\">\n      <div class=\"panel-content\">\n        <div class=\"avatar\">\n          <div class=\"img\" style=\"background-image:url('assets/fake/ava.jpg')\"></div>\n        </div>\n        <div class=\"name\">Александра Грачева</div>\n        <div class=\"props\">\n          <div class=\"prop\">+7 (192) 627-46-23</div>\n          <div class=\"prop\">some@what.ru</div>\n          <div class=\"prop\">Санкт-Петербург</div>\n        </div>\n        <button class=\"\">[ICON] Настроить уведомления</button>\n      </div>\n    </div>\n    <div class=\"panel user-contacts\">\n      <div class=\"panel-content\">\n\n        <div class=\"row header\">\n          <div class=\"column\">\n            <div >Контакты <span>158</span></div>\n          </div>\n          <div class=\"column shrink\">\n            <a href=\"/\" class=\"color-primary\">См. все</a>\n          </div>\n        </div>\n\n      </div>\n\n      <div class=\"contact-list s-overflow-y\">\n        <a *ngFor=\"let contact of contacts\" href=\"/contact/{{contact.id}}\" class=\"list-item contact l-block\">\n          <span class=\"row collapse align-middle l-flex-nowrap\">\n            <span class=\"column shrink\">\n              <span class=\"avatar l-inline\">\n                <span class=\"img\" style=\"background-image:url('assets/fake/ava.jpg')\"></span>\n              </span>\n            </span>\n            <span class=\"column\">\n              <span class=\"contact-name l-block\">{{contact.name}}</span>\n              <span class=\"contact-phone l-block\">{{contact.phone}}</span>\n            </span>\n          </span>\n        </a>\n      </div>\n\n    </div>\n  </div>\n  <div class=\"columns\">\n\n    <div class=\"panel\">\n      <div class=\"panel-header\">\n        <div class=\"row align-middle\">\n          <div class=\"column\">\n            <div class=\"row\">\n              <div class=\"column shrink\">\n                <h2>Лента</h2>\n              </div>\n              <div class=\"column shrink\">\n                <h2>Архивные</h2>\n              </div>\n            </div>\n          </div>\n          <div class=\"column shrink\">\n            <button class=\"color-primary filled\">+ Добавить тему</button>\n          </div>\n        </div>\n      </div>\n      <div class=\"panel-row panel-content\">\n        <input type=\"text\" placeholder=\"Поиск\">\n      </div>\n      <div class=\"panel-content\">\n\n        <div class=\"post\">\n\n          <div class=\"post-actions\">\n            <div class=\"row\">\n              <div class=\"columns\">\n                <button class=\"color-accent filled\"><span>[ICON]</span>Предложение</button>\n                <button class=\"color-primary\">Перейти к чатам <span>58</span></button>\n              </div>\n              <div class=\"columns shrink\">\n                <div class=\"menu-dropdown\">...</div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"post-title\">Жилая недвижимость</div>\n          <div class=\"post-date\">Вчера, 12:15</div>\n\n          <div class=\"post-description\">\n            Вознаграждение 100% стоимости аренды первого месяца за нахождение арендатора.<br>\n            Подробнее в описании\n          </div>\n\n          <div class=\"row\">\n            <div class=\"columns\">\n              <span>[ICON]</span><span>15 ноя 16 - 12 янв 17</span>\n            </div>\n            <div class=\"columns shrink\">\n              <div class=\"row\">\n                <div><span>[ICON]</span>3</div>\n                <div><span>[ICON]</span>354</div>\n                <div><span>[ICON]</span>12</div>\n              </div>\n            </div>\n          </div>\n\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 873:
+/***/ 872:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  root-page works!\n</p>\n"
 
 /***/ }),
 
-/***/ 874:
+/***/ 873:
 /***/ (function(module, exports) {
 
 module.exports = "<table>\n  <tbody>\n  <tr>\n    <td>\n      <div id=\"authForm\">\n        Текущий пользователь #<span id=\"currentUser\">{{ currentUserId }}</span>\n        <button (click)=\"onLogoutClick()\" id=\"logout\">выйти</button>\n        <br>\n        websocket #<span id=\"connectState\">{{ wsConnectionState }}</span><br>\n        <input [(ngModel)]=\"API_URL\" id=\"api\" placeholder=\"API URL\"> <input (click)=\"onSessionCheckClick()\" id=\"sessionCheck\" type=\"button\"\n                                                                                  value=\"проверить сессию\"><br>\n        <input [(ngModel)]=\"userPhone\" id=\"phone\" placeholder=\"номер телефона\"> <input (click)=\"onCodeRequestClick()\" id=\"codeRequest\" type=\"button\"\n                                                                                   value=\"Запросить код\"> <br>\n        <input [(ngModel)]=\"authCode\" id=\"code\" placeholder=\"Код\"> <input (click)=\"onCodeAuthClick()\" id=\"codeAuth\" type=\"button\" value=\"Авторизоваться\">\n        <br>\n\n\n      </div>\n      <div>\n        <select [(ngModel)]=\"method\" id=\"method\">\n          <option value=\"GET\">GET</option>\n          <option value=\"POST\">POST</option>\n          <option value=\"PUT\">PUT</option>\n          <option value=\"DELETE\">DELETE</option>\n        </select>\n        <input [(ngModel)]=\"path\" id=\"path\">\n        <input (click)=\"onSendRequestClick()\" type=\"button\" id=\"sendRequest\" value=\"Send\">\n        <br>\n        body_params:\n        <textarea ([ngModel])=\"bodyParams\" id=\"body_params\" rows=\"10\" cols=\"50\">{}</textarea>\n        <br>\n        query_params:\n        <textarea ([ngModel])=\"queryParams\" id=\"query_params\" rows=\"10\" cols=\"50\">{}</textarea> <br>\n      </div>\n    </td>\n    <td>\n      <div id=\"dialogInfo\">Диалог #<input [(ngModel)]=\"dialogId\" id=\"dialogId\" ></div>\n      <hr>\n      <div id=\"messages\" style=\"height: 500px; overflow: scroll\">\n        <div *ngFor=\"let message of messages\" class=\"message\" id=\"message{{ message.id }}\">\n          <span>{{ message.id }}) #{{message.user_id}} | {{message.message}} ({{message.created_at | date}}) </span>\n          <span id=\"message_status_{{ message.id }}\"></span>\n        </div>\n      </div>\n      <div id=\"status\">\n        <span id=\"badge\">{{ badge }} </span>\n        <span id=\"typing\">{{ isTyping? 'Печатает...' : 'Не печатает' }}</span>\n      </div>\n      <input [(ngModel)]=\"messageText\" (keyup)=\"onChatTextKeyup\" id=\"chatText\">\n      <input (click)=\"onSendButtonClick()\" type=\"button\" id=\"sendButton\" value=\"send\">\n      <input (click)=\"onReadButtonClick()\" type=\"button\" id=\"readButton\" data-id=\"0\" value=\"read\">\n    </td>\n  </tr>\n  </tbody>\n</table>\n\n<table id=\"future\">\n  <tbody>\n  <tr *ngFor=\"let request of requests\" id=\"{{ request.id }}\">\n    <td class=\"request\">\n      <pre>{{ request.options | json }}</pre>\n    </td>\n    <td class=\"response\">\n      <pre>{{ request.response | json }}</pre>\n    </td>\n  </tr>\n  </tbody>\n\n</table>\n"
 
 /***/ })
 
-},[1151]);
+},[1145]);
 //# sourceMappingURL=main.bundle.js.map
