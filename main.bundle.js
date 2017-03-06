@@ -1,13 +1,13 @@
 webpackJsonp([1,4],{
 
-/***/ 1152:
+/***/ 1150:
 /***/ (function(module, exports) {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 1153:
+/***/ 1151:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(644);
@@ -110,8 +110,8 @@ var PersonalAreaLayoutComponent = (function () {
     PersonalAreaLayoutComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-personal-area-layout',
-            template: __webpack_require__(873),
-            styles: [__webpack_require__(794)]
+            template: __webpack_require__(872),
+            styles: [__webpack_require__(793)]
         }), 
         __metadata('design:paramtypes', [])
     ], PersonalAreaLayoutComponent);
@@ -250,8 +250,8 @@ var ChatsLayoutComponent = (function () {
     ChatsLayoutComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-chats-layout',
-            template: __webpack_require__(869),
-            styles: [__webpack_require__(790)]
+            template: __webpack_require__(868),
+            styles: [__webpack_require__(789)]
         }), 
         __metadata('design:paramtypes', [])
     ], ChatsLayoutComponent);
@@ -513,8 +513,8 @@ var FeedLayoutComponent = (function () {
     FeedLayoutComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-feed-layout',
-            template: __webpack_require__(870),
-            styles: [__webpack_require__(791)]
+            template: __webpack_require__(869),
+            styles: [__webpack_require__(790)]
         }), 
         __metadata('design:paramtypes', [])
     ], FeedLayoutComponent);
@@ -553,8 +553,8 @@ var NotFoundComponent = (function () {
     NotFoundComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-not-found',
-            template: __webpack_require__(872),
-            styles: [__webpack_require__(793)]
+            template: __webpack_require__(871),
+            styles: [__webpack_require__(792)]
         }),
         __param(0, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Inject */])('APP_SETTINGS')), 
         __metadata('design:paramtypes', [Object])
@@ -589,8 +589,8 @@ var RootPageComponent = (function () {
     RootPageComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-root-page',
-            template: __webpack_require__(874),
-            styles: [__webpack_require__(795)]
+            template: __webpack_require__(873),
+            styles: [__webpack_require__(794)]
         }), 
         __metadata('design:paramtypes', [])
     ], RootPageComponent);
@@ -961,8 +961,8 @@ var WsnComponent = (function () {
     WsnComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-wsn',
-            template: __webpack_require__(875),
-            styles: [__webpack_require__(796)]
+            template: __webpack_require__(874),
+            styles: [__webpack_require__(795)]
         }),
         __param(3, __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["g" /* Inject */])('APP_SETTINGS')), 
         __metadata('design:paramtypes', [(typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__shared_ws_api_service__["a" /* WsApiService */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_2__shared_ws_api_service__["a" /* WsApiService */]) === 'function' && _a) || Object, (typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_3__core_ws__["a" /* Ws */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_3__core_ws__["a" /* Ws */]) === 'function' && _b) || Object, (typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */] !== 'undefined' && __WEBPACK_IMPORTED_MODULE_1__angular_http__["c" /* Http */]) === 'function' && _c) || Object, Object])
@@ -1036,8 +1036,8 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-root',
-            template: __webpack_require__(868),
-            styles: [__webpack_require__(789)]
+            template: __webpack_require__(867),
+            styles: [__webpack_require__(788)]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
@@ -1374,8 +1374,8 @@ var MainMenuComponent = (function () {
     MainMenuComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["d" /* Component */])({
             selector: 'app-main-menu',
-            template: __webpack_require__(871),
-            styles: [__webpack_require__(792)]
+            template: __webpack_require__(870),
+            styles: [__webpack_require__(791)]
         }), 
         __metadata('design:paramtypes', [])
     ], MainMenuComponent);
@@ -1478,7 +1478,7 @@ var PersonalAreaRouterModule = (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(864);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(863);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__http_service__ = __webpack_require__(770);
 /* harmony export (immutable) */ __webpack_exports__["a"] = HttpFactory;
@@ -1693,10 +1693,10 @@ var environment = {
 
 /***/ }),
 
-/***/ 789:
+/***/ 788:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(70)();
+exports = module.exports = __webpack_require__(91)();
 // imports
 
 
@@ -1711,10 +1711,28 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
+/***/ 789:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(91)();
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/*** EXPORTS FROM exports-loader ***/
+module.exports = module.exports.toString();
+
+/***/ }),
+
 /***/ 790:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(70)();
+exports = module.exports = __webpack_require__(91)();
 // imports
 
 
@@ -1732,25 +1750,7 @@ module.exports = module.exports.toString();
 /***/ 791:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(70)();
-// imports
-
-
-// module
-exports.push([module.i, "", ""]);
-
-// exports
-
-
-/*** EXPORTS FROM exports-loader ***/
-module.exports = module.exports.toString();
-
-/***/ }),
-
-/***/ 792:
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(70)();
+exports = module.exports = __webpack_require__(91)();
 // imports
 
 
@@ -1765,10 +1765,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 793:
+/***/ 792:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(70)();
+exports = module.exports = __webpack_require__(91)();
 // imports
 
 
@@ -1783,10 +1783,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 794:
+/***/ 793:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(70)();
+exports = module.exports = __webpack_require__(91)();
 // imports
 
 
@@ -1801,10 +1801,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 795:
+/***/ 794:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(70)();
+exports = module.exports = __webpack_require__(91)();
 // imports
 
 
@@ -1819,10 +1819,10 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 796:
+/***/ 795:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(70)();
+exports = module.exports = __webpack_require__(91)();
 // imports
 
 
@@ -1837,61 +1837,61 @@ module.exports = module.exports.toString();
 
 /***/ }),
 
-/***/ 868:
+/***/ 867:
 /***/ (function(module, exports) {
 
 module.exports = "<header>\n  <div class=\"row align-middle\">\n    <div class=\"column\">\n\n      <h1 class=\"title\">\n        <a routerLink=\"/\">{{title}}</a>\n      </h1>\n\n    </div>\n    <div class=\"column shrink\">\n\n      <div class=\"user-menu\">\n        <div class=\"row align-middle collapse\">\n          <div class=\"column\">\n            <div class=\"user-name\">Александра</div>\n          </div>\n          <div class=\"column\">\n            <div class=\"avatar\">\n              <div class=\"img\" style=\"background-image:url('assets/fake/ava.jpg')\"></div>\n            </div>\n          </div>\n          <div class=\"column\">\n            <div class=\"arrow-down\"></div>\n          </div>\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n</header>\n\n<main>\n  <div class=\"row\">\n    <div class=\"columns shrink\">\n\n      <app-main-menu></app-main-menu>\n\n    </div>\n    <div class=\"columns\">\n\n      <router-outlet></router-outlet>\n\n    </div>\n  </div>\n\n</main>\n\n<footer></footer>\n\n\n"
 
 /***/ }),
 
-/***/ 869:
+/***/ 868:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  chats-layout works!\n</p>\n"
 
 /***/ }),
 
-/***/ 870:
+/***/ 869:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  feed-layout works!\n</p>\n"
 
 /***/ }),
 
-/***/ 871:
+/***/ 870:
 /***/ (function(module, exports) {
 
 module.exports = "<menu>\n  <ul>\n    <li *ngFor=\"let link of links\">\n      <a routerLinkActive=\"active\" [routerLink]=\"link.path\">{{link.title}}</a>\n    </li>\n  </ul>\n</menu>\n"
 
 /***/ }),
 
-/***/ 872:
+/***/ 871:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  404 NOT FOUND !\n</p>\n"
 
 /***/ }),
 
-/***/ 873:
+/***/ 872:
 /***/ (function(module, exports) {
 
 module.exports = "<div class=\"row\">\n  <div class=\"column shrink column-left\">\n    <div class=\"panel user-info\">\n      <div class=\"panel-content\">\n        <div class=\"avatar\">\n          <div class=\"img\" style=\"background-image:url('assets/fake/ava.jpg')\"></div>\n        </div>\n        <div class=\"name\">Александра Грачева</div>\n        <div class=\"props\">\n          <div class=\"prop\">+7 (192) 627-46-23</div>\n          <div class=\"prop\">some@what.ru</div>\n          <div class=\"prop\">Санкт-Петербург</div>\n        </div>\n        <button class=\"\">[ICON] Настроить уведомления</button>\n      </div>\n    </div>\n    <div class=\"panel user-contacts\">\n      <div class=\"panel-content\">\n\n        <div class=\"row header\">\n          <div class=\"column\">\n            <div >Контакты <span>158</span></div>\n          </div>\n          <div class=\"column shrink\">\n            <a href=\"/\" class=\"color-primary\">См. все</a>\n          </div>\n        </div>\n\n      </div>\n\n      <div class=\"contact-list s-overflow-y\">\n        <a *ngFor=\"let contact of contacts\" href=\"/contact/{{contact.id}}\" class=\"list-item contact l-block\">\n          <span class=\"row collapse align-middle l-flex-nowrap\">\n            <span class=\"column shrink\">\n              <span class=\"avatar l-inline\">\n                <span class=\"img\" style=\"background-image:url('assets/fake/ava.jpg')\"></span>\n              </span>\n            </span>\n            <span class=\"column\">\n              <span class=\"contact-name l-block\">{{contact.name}}</span>\n              <span class=\"contact-phone l-block\">{{contact.phone}}</span>\n            </span>\n          </span>\n        </a>\n      </div>\n\n    </div>\n  </div>\n  <div class=\"columns\">\n\n    <div class=\"panel\">\n      <div class=\"panel-header\">\n        <div class=\"row align-middle\">\n          <div class=\"column\">\n            <div class=\"row\">\n              <div class=\"column shrink\">\n                <h2>Лента</h2>\n              </div>\n              <div class=\"column shrink\">\n                <h2>Архивные</h2>\n              </div>\n            </div>\n          </div>\n          <div class=\"column shrink\">\n            <button class=\"color-primary filled\">+ Добавить тему</button>\n          </div>\n        </div>\n      </div>\n      <div class=\"panel-row panel-content\">\n        <input type=\"text\" placeholder=\"Поиск\">\n      </div>\n      <div class=\"panel-content\">\n\n        <div class=\"post\">\n\n          <div class=\"post-actions\">\n            <div class=\"row\">\n              <div class=\"columns\">\n                <button class=\"color-accent filled\"><span>[ICON]</span>Предложение</button>\n                <button class=\"color-primary\">Перейти к чатам <span>58</span></button>\n              </div>\n              <div class=\"columns shrink\">\n                <div class=\"menu-dropdown\">...</div>\n              </div>\n            </div>\n          </div>\n\n          <div class=\"post-title\">Жилая недвижимость</div>\n          <div class=\"post-date\">Вчера, 12:15</div>\n\n          <div class=\"post-description\">\n            Вознаграждение 100% стоимости аренды первого месяца за нахождение арендатора.<br>\n            Подробнее в описании\n          </div>\n\n          <div class=\"row\">\n            <div class=\"columns\">\n              <span>[ICON]</span><span>15 ноя 16 - 12 янв 17</span>\n            </div>\n            <div class=\"columns shrink\">\n              <div class=\"row\">\n                <div><span>[ICON]</span>3</div>\n                <div><span>[ICON]</span>354</div>\n                <div><span>[ICON]</span>12</div>\n              </div>\n            </div>\n          </div>\n\n        </div>\n      </div>\n\n    </div>\n\n  </div>\n</div>\n"
 
 /***/ }),
 
-/***/ 874:
+/***/ 873:
 /***/ (function(module, exports) {
 
 module.exports = "<p>\n  root-page works!\n</p>\n"
 
 /***/ }),
 
-/***/ 875:
+/***/ 874:
 /***/ (function(module, exports) {
 
 module.exports = "<table>\n  <tbody>\n  <tr>\n    <td>\n      <div id=\"authForm\">\n        Текущий пользователь #<span id=\"currentUser\">{{ currentUserId }}</span>\n        <button (click)=\"onLogoutClick()\" id=\"logout\">выйти</button>\n        <br>\n        websocket #<span id=\"connectState\">{{ wsConnectionState }}</span><br>\n        <input [(ngModel)]=\"API_URL\" id=\"api\" placeholder=\"API URL\"> <input (click)=\"onSessionCheckClick()\" id=\"sessionCheck\" type=\"button\"\n                                                                                  value=\"проверить сессию\"><br>\n        <input [(ngModel)]=\"userPhone\" id=\"phone\" placeholder=\"номер телефона\"> <input (click)=\"onCodeRequestClick()\" id=\"codeRequest\" type=\"button\"\n                                                                                   value=\"Запросить код\"> <br>\n        <input [(ngModel)]=\"authCode\" id=\"code\" placeholder=\"Код\"> <input (click)=\"onCodeAuthClick()\" id=\"codeAuth\" type=\"button\" value=\"Авторизоваться\">\n        <br>\n\n\n      </div>\n      <div>\n        <select [(ngModel)]=\"method\" id=\"method\">\n          <option value=\"GET\">GET</option>\n          <option value=\"POST\">POST</option>\n          <option value=\"PUT\">PUT</option>\n          <option value=\"DELETE\">DELETE</option>\n        </select>\n        <input [(ngModel)]=\"path\" id=\"path\">\n        <input (click)=\"onSendRequestClick()\" type=\"button\" id=\"sendRequest\" value=\"Send\">\n        <br>\n        body_params:\n        <textarea ([ngModel])=\"bodyParams\" id=\"body_params\" rows=\"10\" cols=\"50\">{}</textarea>\n        <br>\n        query_params:\n        <textarea ([ngModel])=\"queryParams\" id=\"query_params\" rows=\"10\" cols=\"50\">{}</textarea> <br>\n      </div>\n    </td>\n    <td>\n      <div id=\"dialogInfo\">Диалог #<input [(ngModel)]=\"dialogId\" id=\"dialogId\" ></div>\n      <hr>\n      <div id=\"messages\" style=\"height: 500px; overflow: scroll\">\n        <div *ngFor=\"let message of messages\" class=\"message\" id=\"message{{ message.id }}\">\n          <span>{{ message.id }}) #{{message.user_id}} | {{message.message}} ({{message.created_at | date}}) </span>\n          <span id=\"message_status_{{ message.id }}\"></span>\n        </div>\n      </div>\n      <div id=\"status\">\n        <span id=\"badge\">{{ badge }} </span>\n        <span id=\"typing\">{{ isTyping? 'Печатает...' : 'Не печатает' }}</span>\n      </div>\n      <input [(ngModel)]=\"messageText\" (keyup)=\"onChatTextKeyup\" id=\"chatText\">\n      <input (click)=\"onSendButtonClick()\" type=\"button\" id=\"sendButton\" value=\"send\">\n      <input (click)=\"onReadButtonClick()\" type=\"button\" id=\"readButton\" data-id=\"0\" value=\"read\">\n    </td>\n  </tr>\n  </tbody>\n</table>\n\n<table id=\"future\">\n  <tbody>\n  <tr *ngFor=\"let request of requests\" id=\"{{ request.id }}\">\n    <td class=\"request\">\n      <pre>{{ request.options | json }}</pre>\n    </td>\n    <td class=\"response\">\n      <pre>{{ request.response | json }}</pre>\n    </td>\n  </tr>\n  </tbody>\n\n</table>\n"
 
 /***/ })
 
-},[1153]);
+},[1151]);
 //# sourceMappingURL=main.bundle.js.map
