@@ -5,7 +5,7 @@
  * Licensed under MIT Open Source
  */
 .row {
-  max-width: 75rem;
+  max-width: 61.25rem;
   margin-right: auto;
   margin-left: auto;
   display: -webkit-box;
@@ -1080,6 +1080,9 @@ table {
 img {
   max-width: 100%; }
 
+input {
+  box-sizing: border-box; }
+
 .arrow-up {
   width: 0;
   height: 0;
@@ -1114,13 +1117,18 @@ img {
   background-color: white;
   margin-bottom: 13.33333px; }
   .panel-header {
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1px solid #dedee3;
     background-color: whitesmoke; }
   .panel-row {
     border-bottom: 1px solid #dedee3; }
   .panel-content {
     padding: 20px; }
+  .panel input.panel-content {
+    border: none;
+    font-size: 12px;
+    padding: 15px;
+    width: 100%; }
   .panel-footer {
     padding: 20px; }
 
@@ -1135,6 +1143,16 @@ img {
     padding-top: 100%;
     background-size: cover;
     background-position: center; }
+
+input.search {
+  padding-left: 40px; }
+
+.tabs > * {
+  display: inline-block; }
+
+.menu-dropdown .label {
+  color: #b4b5c0;
+  font-size: 30px; }
 
 .l-centered {
   margin: 0 auto; }
@@ -1311,9 +1329,11 @@ button, .button, input[type="submit"] {
   border-color: currentColor;
   border-width: 1px;
   display: inline-block;
-  padding: 5px 15px;
-  border-radius: 3px;
-  margin: 4px; }
+  padding: 4px 12px;
+  border-radius: 3px; }
+  button + button, .button + button, input[type="submit"] + button, button + .button, .button + .button, input[type="submit"] + .button, button + input[type="submit"], .button + input[type="submit"], input[type="submit"] + input[type="submit"] {
+    margin-left: 4px;
+    margin-bottom: 4px; }
 
 .color-primary {
   color: #386aff; }
