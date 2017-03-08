@@ -24,12 +24,16 @@ export var MainMenuComponent = (function () {
                 path: '/chats'
             },
             {
-                title: '404',
-                path: '/404'
+                title: 'Wsn',
+                path: '/wsn'
             },
             {
-                title: 'Test',
-                path: '/test'
+                title: 'Palette',
+                path: '/palette'
+            },
+            {
+                title: '404',
+                path: '/404'
             },
         ];
     }

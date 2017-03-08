@@ -14,6 +14,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { PersonalAreaLayoutComponent } from './personal-area/personal-area-layout/personal-area-layout.component';
 import { FeedLayoutComponent } from './feed/feed-layout/feed-layout.component';
 import { ChatsLayoutComponent } from './chats/chats-layout/chats-layout.component';
+import { PaletteComponent } from './shared/palette/palette.component';
 var appRoutes = [
     {
         path: '',
@@ -34,8 +35,12 @@ var appRoutes = [
         component: ChatsLayoutComponent
     },
     {
-        path: 'test',
+        path: 'wsn',
         component: WsnComponent
+    },
+    {
+        path: 'palette',
+        component: PaletteComponent
     },
     {
         path: '**',
