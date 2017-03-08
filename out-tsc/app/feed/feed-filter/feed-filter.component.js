@@ -7,24 +7,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { SharedModule } from '../shared/shared.module';
-import { FeedLayoutComponent } from './feed-layout/feed-layout.component';
-import { FeedFilterComponent } from './feed-filter/feed-filter.component';
-export var FeedModule = (function () {
-    function FeedModule() {
+import { Component } from '@angular/core';
+export var FeedFilterComponent = (function () {
+    function FeedFilterComponent() {
     }
-    FeedModule = __decorate([
-        NgModule({
-            imports: [
-                CommonModule,
-                SharedModule
-            ],
-            declarations: [FeedLayoutComponent, FeedFilterComponent]
+    FeedFilterComponent.prototype.ngOnInit = function () {
+    };
+    FeedFilterComponent = __decorate([
+        Component({
+            selector: 'app-feed-filter',
+            templateUrl: './feed-filter.component.html',
+            styleUrls: ['./feed-filter.component.scss']
         }), 
         __metadata('design:paramtypes', [])
-    ], FeedModule);
-    return FeedModule;
+    ], FeedFilterComponent);
+    return FeedFilterComponent;
 }());
-//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/feed/feed.module.js.map
+//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/feed/feed-filter/feed-filter.component.js.map
