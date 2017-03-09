@@ -7,26 +7,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { SharedModule } from '../shared/shared.module';
-import { UiModule } from '../ui/ui.module';
-import { FeedLayoutComponent } from './feed-layout/feed-layout.component';
-import { FeedFilterComponent } from './feed-filter/feed-filter.component';
-export var FeedModule = (function () {
-    function FeedModule() {
+import { Component } from '@angular/core';
+export var SlideToggleComponent = (function () {
+    function SlideToggleComponent() {
     }
-    FeedModule = __decorate([
-        NgModule({
-            imports: [
-                CommonModule,
-                SharedModule,
-                UiModule
-            ],
-            declarations: [FeedLayoutComponent, FeedFilterComponent]
+    SlideToggleComponent.prototype.ngOnInit = function () {
+    };
+    SlideToggleComponent = __decorate([
+        Component({
+            selector: 'app-slide-toggle',
+            templateUrl: './slide-toggle.component.html',
+            styleUrls: ['./slide-toggle.component.scss']
         }), 
         __metadata('design:paramtypes', [])
-    ], FeedModule);
-    return FeedModule;
+    ], SlideToggleComponent);
+    return SlideToggleComponent;
 }());
-//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/feed/feed.module.js.map
+//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/ui/slide-toggle/slide-toggle.component.js.map

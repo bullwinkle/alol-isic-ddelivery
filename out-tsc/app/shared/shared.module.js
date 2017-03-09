@@ -18,8 +18,6 @@ import { HttpFactory } from './http.factory';
 import { WsFactory } from './ws.factory';
 import { FeedListComponent } from './feed-list/feed-list.component';
 import { FeedItemComponent } from './feed-item/feed-item.component';
-import { PaletteComponent } from './palette/palette.component';
-import { MaterialModule } from "@angular/material";
 var importsAndExports = [
     CommonModule,
     FormsModule
@@ -29,11 +27,8 @@ export var SharedModule = (function () {
     }
     SharedModule = __decorate([
         NgModule({
-            imports: [
-                MaterialModule.forRoot()
-            ].concat(importsAndExports),
+            imports: importsAndExports.slice(),
             exports: importsAndExports.concat([
-                MaterialModule,
                 FormsModule,
                 HttpModule,
                 FeedListComponent,
@@ -41,8 +36,7 @@ export var SharedModule = (function () {
             ]),
             declarations: [
                 FeedListComponent,
-                FeedItemComponent,
-                PaletteComponent
+                FeedItemComponent
             ],
             providers: [
                 WsApiService,

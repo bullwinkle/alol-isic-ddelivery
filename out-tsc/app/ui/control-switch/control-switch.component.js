@@ -7,26 +7,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { SharedModule } from '../shared/shared.module';
-import { UiModule } from '../ui/ui.module';
-import { FeedLayoutComponent } from './feed-layout/feed-layout.component';
-import { FeedFilterComponent } from './feed-filter/feed-filter.component';
-export var FeedModule = (function () {
-    function FeedModule() {
+import { Component, Input } from '@angular/core';
+export var ControlSwitchComponent = (function () {
+    function ControlSwitchComponent() {
+        this.labelPosition = "left";
     }
-    FeedModule = __decorate([
-        NgModule({
-            imports: [
-                CommonModule,
-                SharedModule,
-                UiModule
-            ],
-            declarations: [FeedLayoutComponent, FeedFilterComponent]
+    ControlSwitchComponent.prototype.ngOnInit = function () {
+    };
+    __decorate([
+        Input(), 
+        __metadata('design:type', Object)
+    ], ControlSwitchComponent.prototype, "labelPosition", void 0);
+    ControlSwitchComponent = __decorate([
+        Component({
+            selector: 'app-control-switch',
+            templateUrl: './control-switch.component.html',
+            styleUrls: ['./control-switch.component.scss']
         }), 
         __metadata('design:paramtypes', [])
-    ], FeedModule);
-    return FeedModule;
+    ], ControlSwitchComponent);
+    return ControlSwitchComponent;
 }());
-//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/feed/feed.module.js.map
+//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/ui/control-switch/control-switch.component.js.map

@@ -7,26 +7,26 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { SharedModule } from '../shared/shared.module';
-import { UiModule } from '../ui/ui.module';
-import { FeedLayoutComponent } from './feed-layout/feed-layout.component';
-import { FeedFilterComponent } from './feed-filter/feed-filter.component';
-export var FeedModule = (function () {
-    function FeedModule() {
+import { Component } from '@angular/core';
+export var PaletteComponent = (function () {
+    function PaletteComponent() {
+        this.selected = null;
+        this.select = [
+            { value: 'steak-0', title: 'Steak' },
+            { value: 'pizza-1', title: 'Pizza' },
+            { value: 'tacos-2', title: 'Tacos' }
+        ];
     }
-    FeedModule = __decorate([
-        NgModule({
-            imports: [
-                CommonModule,
-                SharedModule,
-                UiModule
-            ],
-            declarations: [FeedLayoutComponent, FeedFilterComponent]
+    PaletteComponent.prototype.ngOnInit = function () {
+    };
+    PaletteComponent = __decorate([
+        Component({
+            selector: 'app-palette',
+            templateUrl: 'palette.component.html',
+            styleUrls: ['palette.component.scss']
         }), 
         __metadata('design:paramtypes', [])
-    ], FeedModule);
-    return FeedModule;
+    ], PaletteComponent);
+    return PaletteComponent;
 }());
-//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/feed/feed.module.js.map
+//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/palette/palette.component.js.map

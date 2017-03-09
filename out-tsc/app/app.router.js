@@ -14,7 +14,7 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { PersonalAreaLayoutComponent } from './personal-area/personal-area-layout/personal-area-layout.component';
 import { FeedLayoutComponent } from './feed/feed-layout/feed-layout.component';
 import { ChatsLayoutComponent } from './chats/chats-layout/chats-layout.component';
-import { PaletteComponent } from './shared/palette/palette.component';
+import { PaletteComponent } from './palette/palette.component';
 var appRoutes = [
     {
         path: '',

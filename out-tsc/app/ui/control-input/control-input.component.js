@@ -7,26 +7,20 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { SharedModule } from '../shared/shared.module';
-import { UiModule } from '../ui/ui.module';
-import { FeedLayoutComponent } from './feed-layout/feed-layout.component';
-import { FeedFilterComponent } from './feed-filter/feed-filter.component';
-export var FeedModule = (function () {
-    function FeedModule() {
+import { Component } from '@angular/core';
+export var ControlInputComponent = (function () {
+    function ControlInputComponent() {
     }
-    FeedModule = __decorate([
-        NgModule({
-            imports: [
-                CommonModule,
-                SharedModule,
-                UiModule
-            ],
-            declarations: [FeedLayoutComponent, FeedFilterComponent]
+    ControlInputComponent.prototype.ngOnInit = function () {
+    };
+    ControlInputComponent = __decorate([
+        Component({
+            selector: 'app-control-input',
+            templateUrl: './control-input.component.html',
+            styleUrls: ['./control-input.component.scss']
         }), 
         __metadata('design:paramtypes', [])
-    ], FeedModule);
-    return FeedModule;
+    ], ControlInputComponent);
+    return ControlInputComponent;
 }());
-//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/feed/feed.module.js.map
+//# sourceMappingURL=/Users/macbookpro/Projects/strizhapp/web/app/src/app/ui/control-input/control-input.component.js.map

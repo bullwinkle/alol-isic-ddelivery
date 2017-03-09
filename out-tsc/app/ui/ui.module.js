@@ -9,15 +9,35 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { SharedModule } from '../shared/shared.module';
+import { ControlSwitchComponent } from './control-switch/control-switch.component';
+import { ControlInputComponent } from './control-input/control-input.component';
+import { ControlCheckboxComponent } from './control-checkbox/control-checkbox.component';
+import { ControlRadioButtonComponent } from './control-radio-button/control-radio-button.component';
+import { ControlButtonComponent } from './control-button/control-button.component';
 export var UiModule = (function () {
     function UiModule() {
     }
     UiModule = __decorate([
         NgModule({
             imports: [
-                CommonModule
+                CommonModule,
+                SharedModule
             ],
-            declarations: []
+            declarations: [
+                ControlSwitchComponent,
+                ControlInputComponent,
+                ControlCheckboxComponent,
+                ControlRadioButtonComponent,
+                ControlButtonComponent
+            ],
+            exports: [
+                ControlSwitchComponent,
+                ControlInputComponent,
+                ControlCheckboxComponent,
+                ControlRadioButtonComponent,
+                ControlButtonComponent
+            ]
         }), 
         __metadata('design:paramtypes', [])
     ], UiModule);

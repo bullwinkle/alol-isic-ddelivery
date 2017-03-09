@@ -12,6 +12,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppSettings } from "./app.settings";
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
+import { UiModule } from './ui/ui.module';
 import { AppRouterModule } from './app.router';
 import { PersonalAreaModule } from './personal-area/personal-area.module';
 import { FeedModule } from './feed/feed.module';
@@ -21,27 +22,30 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
 import { RootPageComponent } from './root-page/root-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { WsnComponent } from './wsn/wsn.component';
+import { PaletteComponent } from './palette/palette.component';
 export var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         NgModule({
+            imports: [
+                BrowserModule,
+                CoreModule,
+                SharedModule,
+                UiModule,
+                AppRouterModule,
+                PersonalAreaModule,
+                FeedModule,
+                ChatsModule
+            ],
             declarations: [
                 AppComponent,
                 RootPageComponent,
                 MainMenuComponent,
                 NotFoundComponent,
                 WsnComponent,
-                RootPageComponent
-            ],
-            imports: [
-                BrowserModule,
-                CoreModule,
-                SharedModule,
-                AppRouterModule,
-                PersonalAreaModule,
-                FeedModule,
-                ChatsModule
+                RootPageComponent,
+                PaletteComponent
             ],
             providers: [
                 {
