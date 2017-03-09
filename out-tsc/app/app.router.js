@@ -10,6 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { WsnComponent } from './wsn/wsn.component';
+import { RootPageComponent } from './root-page/root-page.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { PersonalAreaLayoutComponent } from './personal-area/personal-area-layout/personal-area-layout.component';
 import { FeedLayoutComponent } from './feed/feed-layout/feed-layout.component';
@@ -18,9 +19,7 @@ import { PaletteComponent } from './palette/palette.component';
 var appRoutes = [
     {
         path: '',
-        // component: RootPageComponent
-        redirectTo: 'personal-area',
-        pathMatch: 'full'
+        component: RootPageComponent
     },
     {
         path: 'personal-area',

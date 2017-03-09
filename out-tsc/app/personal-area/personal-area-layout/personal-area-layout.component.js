@@ -10,21 +10,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 export var PersonalAreaLayoutComponent = (function () {
     function PersonalAreaLayoutComponent() {
+        this.contacts = new Array(10).fill('').map(function (el) {
+            return {
+                avatar: 'assets/fake/ava.jpg',
+                name: "Смирнова Надежда",
+                phone: "+7 (923) 564-34-21",
+                id: Math.random().toString().replace('0.', '')
+            };
+        });
     }
-    Object.defineProperty(PersonalAreaLayoutComponent.prototype, "contacts", {
-        get: function () {
-            return new Array(10).fill('').map(function (el) {
-                return {
-                    avatar: 'assets/fake/ava.jpg',
-                    name: "Смирнова Надежда",
-                    phone: "+7 (923) 564-34-21",
-                    id: Math.random().toString().replace('0.', '')
-                };
-            });
-        },
-        enumerable: true,
-        configurable: true
-    });
     PersonalAreaLayoutComponent.prototype.ngOnInit = function () {
     };
     PersonalAreaLayoutComponent = __decorate([
