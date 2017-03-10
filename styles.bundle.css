@@ -1117,8 +1117,9 @@ input {
 .panel {
   border: 1px solid #dedee3;
   border-radius: 3px;
-  background-color: white;
-  margin-bottom: 13.33333px; }
+  background-color: white; }
+  .panel:not(:first-child) {
+    margin-top: 13.33333px; }
   .panel-header {
     padding-top: 10px;
     padding-right: 10px;
@@ -1219,6 +1220,11 @@ input.search {
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
   max-height: 100%; }
+
+.s-ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
 
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;

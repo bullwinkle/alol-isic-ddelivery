@@ -8,7 +8,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component, Input } from '@angular/core';
-var _a = new Array(10).fill('').reduce(function (_a) {
+var _a = new Array(3).fill('').reduce(function (_a) {
     var messages = _a[0], promos = _a[1];
     messages.push({
         avatar: 'assets/fake/ava.jpg',

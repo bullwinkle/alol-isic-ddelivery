@@ -19,7 +19,7 @@ export var ChatsLayoutComponent = (function () {
     ChatsLayoutComponent.prototype.ngOnInit = function () {
         this.updateHeight();
         Observable.fromEvent(window, "resize")
-            .debounce(function (x) { return Observable.timer(100); })
+            .debounce(function (x) { return Observable.timer(10); })
             .subscribe(this.updateHeight.bind(this));
     };
     ChatsLayoutComponent.prototype.updateHeight = function () {
