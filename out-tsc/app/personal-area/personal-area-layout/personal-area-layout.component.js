@@ -8,16 +8,17 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
+var fakeContacts = new Array(10).fill('').map(function (el) {
+    return {
+        avatar: 'assets/fake/ava.jpg',
+        name: "Смирнова Надежда",
+        phone: "+7 (923) 564-34-21",
+        id: Math.random().toString().replace('0.', '')
+    };
+});
 export var PersonalAreaLayoutComponent = (function () {
     function PersonalAreaLayoutComponent() {
-        this.contacts = new Array(10).fill('').map(function (el) {
-            return {
-                avatar: 'assets/fake/ava.jpg',
-                name: "Смирнова Надежда",
-                phone: "+7 (923) 564-34-21",
-                id: Math.random().toString().replace('0.', '')
-            };
-        });
+        this.contacts = fakeContacts;
     }
     PersonalAreaLayoutComponent.prototype.ngOnInit = function () {
     };

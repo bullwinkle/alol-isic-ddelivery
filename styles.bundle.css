@@ -1083,6 +1083,9 @@ img {
 input {
   box-sizing: border-box; }
 
+* {
+  box-sizing: border-box; }
+
 .arrow-up {
   width: 0;
   height: 0;
@@ -1186,6 +1189,18 @@ input.search {
 .l-w-100p {
   width: 100%; }
 
+.l-h-100p {
+  height: 100%; }
+
+.l-p-default {
+  padding: 20px; }
+
+.l-p-s {
+  padding: 13.33333px; }
+
+.l-p-xs {
+  padding: 10px; }
+
 .s-rounded {
   border-radius: 1000px;
   overflow: hidden; }
@@ -1196,12 +1211,14 @@ input.search {
 .s-overflow-x {
   overflow-x: auto;
   overflow-y: hidden;
-  -webkit-overflow-scrolling: touch; }
+  -webkit-overflow-scrolling: touch;
+  max-height: 100%; }
 
 .s-overflow-y {
   overflow-x: hidden;
   overflow-y: auto;
-  -webkit-overflow-scrolling: touch; }
+  -webkit-overflow-scrolling: touch;
+  max-height: 100%; }
 
 body {
   font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;

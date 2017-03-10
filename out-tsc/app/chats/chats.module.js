@@ -10,6 +10,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ChatsLayoutComponent } from './chats-layout/chats-layout.component';
+import { ChatListComponent } from './chat-list/chat-list.component';
+import { ChatItemComponent } from './chat-item/chat-item.component';
+import { MessageItemComponent } from './message-item/message-item.component';
+import { MessagesListComponent } from './messages-list/messages-list.component';
+import { MessageFormComponent } from './message-form/message-form.component';
+import { ChatComponent } from './chat/chat.component';
 export var ChatsModule = (function () {
     function ChatsModule() {
     }
@@ -18,7 +24,7 @@ export var ChatsModule = (function () {
             imports: [
                 CommonModule
             ],
-            declarations: [ChatsLayoutComponent]
+            declarations: [ChatsLayoutComponent, ChatListComponent, ChatItemComponent, MessageItemComponent, MessagesListComponent, MessageFormComponent, ChatComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], ChatsModule);

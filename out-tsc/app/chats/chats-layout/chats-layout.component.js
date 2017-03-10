@@ -7,11 +7,25 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component, ElementRef } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
+var fakeChatId = Math.floor(Math.random() * 1000);
 export var ChatsLayoutComponent = (function () {
-    function ChatsLayoutComponent() {
+    function ChatsLayoutComponent(el) {
+        this.el = el;
+        this.chatId = fakeChatId;
+        this.height = '100%';
     }
     ChatsLayoutComponent.prototype.ngOnInit = function () {
+        this.updateHeight();
+        Observable.fromEvent(window, "resize")
+            .debounce(function (x) { return Observable.timer(100); })
+            .subscribe(this.updateHeight.bind(this));
+    };
+    ChatsLayoutComponent.prototype.updateHeight = function () {
+        console.warn('updateHeight');
+        var height = document.documentElement.clientHeight - this.el.nativeElement.offsetTop - 40;
+        this.height = height + "px";
     };
     ChatsLayoutComponent = __decorate([
         Component({
@@ -19,7 +33,7 @@ export var ChatsLayoutComponent = (function () {
             templateUrl: './chats-layout.component.html',
             styleUrls: ['./chats-layout.component.scss']
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [ElementRef])
     ], ChatsLayoutComponent);
     return ChatsLayoutComponent;
 }());
