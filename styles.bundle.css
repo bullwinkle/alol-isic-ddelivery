@@ -1154,18 +1154,58 @@ input {
 input.search {
   padding-left: 40px; }
 
+.icon {
+  -webkit-transition: color .1s ease-in-out,fill .1s ease-in-out, stroke .1s ease-in-out;
+  transition: color .1s ease-in-out,fill .1s ease-in-out, stroke .1s ease-in-out; }
+
 .tabs > * {
   display: inline-block; }
 
 .menu-dropdown .label {
-  color: #b4b5c0;
-  font-size: 30px; }
+  cursor: pointer; }
+  .menu-dropdown .label, .menu-dropdown .label .icon {
+    fill: #b4b5c0;
+    -webkit-transition: fill .1s ease-in-out, color .1s ease-in-out;
+    transition: fill .1s ease-in-out, color .1s ease-in-out; }
+  .menu-dropdown .label:hover, .menu-dropdown .label:hover .icon {
+    fill: #386aff; }
+
+input.search,
+.input-search > input {
+  padding-left: 40px !important;
+  background-image: url(ic-search.0e08edcb619f02b3ff65.svg);
+  background-position: 15px 15px;
+  background-repeat: no-repeat; }
+
+.tabs .tab-title {
+  position: relative;
+  bottom: -1px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.25;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  cursor: pointer;
+  color: #202127; }
+  .tabs .tab-title:not(.active) {
+    border-bottom-color: transparent; }
+  .tabs .tab-title.active {
+    border-bottom-color: #386aff; }
+  .tabs .tab-title:not(:first-child) {
+    margin-left: 10px; }
 
 .l-block {
   display: block; }
 
-.l-inline > * {
+.l-inline > *, .l-inline-middle > * {
   display: inline-block; }
+
+.l-inline-middle > * {
+  vertical-align: middle; }
 
 .l-inline-self {
   display: inline-block; }
@@ -1227,7 +1267,7 @@ input.search {
   overflow: hidden; }
 
 body {
-  font-family: Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: ClearSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   font-weight: 400;
   background-color: #ecedf0;
@@ -1244,10 +1284,10 @@ input[type="submit"] {
   cursor: pointer;
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: color .1s ease-in-out,background-color .1s ease-in-out, -webkit-transform .1s ease-in-out;
-  transition: color .1s ease-in-out,background-color .1s ease-in-out, -webkit-transform .1s ease-in-out;
-  transition: transform .1s ease-in-out, color .1s ease-in-out,background-color .1s ease-in-out;
-  transition: transform .1s ease-in-out, color .1s ease-in-out,background-color .1s ease-in-out, -webkit-transform .1s ease-in-out;
+  -webkit-transition: color .1s ease-in-out,background-color .1s ease-in-out, background-color .15s ease-in-out, -webkit-transform .1s ease-in-out;
+  transition: color .1s ease-in-out,background-color .1s ease-in-out, background-color .15s ease-in-out, -webkit-transform .1s ease-in-out;
+  transition: transform .1s ease-in-out, color .1s ease-in-out,background-color .1s ease-in-out, background-color .15s ease-in-out;
+  transition: transform .1s ease-in-out, color .1s ease-in-out,background-color .1s ease-in-out, background-color .15s ease-in-out, -webkit-transform .1s ease-in-out;
   outline: none;
   border-style: solid; }
   a:hover,
@@ -1276,11 +1316,11 @@ input[type="submit"] {
   .button.filled,
   input[type="submit"].filled {
     color: white !important; }
-  a:not(.color-primary):not(.color-accent),
-  .link:not(.color-primary):not(.color-accent),
-  button:not(.color-primary):not(.color-accent),
-  .button:not(.color-primary):not(.color-accent),
-  input[type="submit"]:not(.color-primary):not(.color-accent) {
+  a:not(.color-primary):not(.color-accent):not(.tab-title),
+  .link:not(.color-primary):not(.color-accent):not(.tab-title),
+  button:not(.color-primary):not(.color-accent):not(.tab-title),
+  .button:not(.color-primary):not(.color-accent):not(.tab-title),
+  input[type="submit"]:not(.color-primary):not(.color-accent):not(.tab-title) {
     color: #b4b5c0;
     border-color: #dedee3; }
   a.color-primary:not(.filled),
@@ -1369,11 +1409,15 @@ a, .link {
   border-color: transparent; }
 
 button, .button, input[type="submit"] {
-  border-color: currentColor;
-  border-width: 1px;
   display: inline-block;
-  padding: 4px 12px;
   border-radius: 3px; }
+  button:not(.icon):not(.text), .button:not(.icon):not(.text), input[type="submit"]:not(.icon):not(.text) {
+    border-radius: 3px;
+    padding: 4px 12px;
+    border-color: currentColor;
+    border-width: 1px; }
+  button.icon, button.text, .button.icon, .button.text, input[type="submit"].icon, input[type="submit"].text {
+    border: none; }
 
 .color-primary {
   color: #386aff; }
