@@ -1198,6 +1198,23 @@ input.search,
   .tabs .tab-title:not(:first-child) {
     margin-left: 10px; }
 
+.feed-header-inner {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-bottom: 0;
+  padding-right: 10px;
+  padding-left: 15px;
+  border-bottom: 1px solid #dedee3;
+  background-color: whitesmoke; }
+
+.feed-item {
+  border-bottom: 2px solid transparent; }
+  .feed-header + .feed-item {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    margin-top: 0; }
+
 .l-block {
   display: block; }
 
