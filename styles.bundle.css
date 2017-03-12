@@ -1114,6 +1114,9 @@ input {
   border-bottom: 4px solid transparent;
   border-right: 6px solid #dedee3; }
 
+input:focus, textarea:focus {
+  outline: none; }
+
 .panel {
   border: 1px solid #dedee3;
   border-radius: 3px;
