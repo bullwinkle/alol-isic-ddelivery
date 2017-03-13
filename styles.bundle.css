@@ -1291,6 +1291,9 @@ input.search,
   white-space: nowrap;
   overflow: hidden; }
 
+.f-upper {
+  text-transform: uppercase; }
+
 body {
   font-family: ClearSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
@@ -1334,20 +1337,21 @@ input[type="submit"] {
   button:not(.filled),
   .button:not(.filled),
   input[type="submit"]:not(.filled) {
-    background-color: transparent; }
+    background-color: transparent;
+    border-color: currentColor; }
+  a:not(.color-primary):not(.color-accent):not(.filled):not(.tab-title),
+  .link:not(.color-primary):not(.color-accent):not(.filled):not(.tab-title),
+  button:not(.color-primary):not(.color-accent):not(.filled):not(.tab-title),
+  .button:not(.color-primary):not(.color-accent):not(.filled):not(.tab-title),
+  input[type="submit"]:not(.color-primary):not(.color-accent):not(.filled):not(.tab-title) {
+    color: #b4b5c0;
+    border-color: #dedee3; }
   a.filled,
   .link.filled,
   button.filled,
   .button.filled,
   input[type="submit"].filled {
-    color: white !important; }
-  a:not(.color-primary):not(.color-accent):not(.tab-title),
-  .link:not(.color-primary):not(.color-accent):not(.tab-title),
-  button:not(.color-primary):not(.color-accent):not(.tab-title),
-  .button:not(.color-primary):not(.color-accent):not(.tab-title),
-  input[type="submit"]:not(.color-primary):not(.color-accent):not(.tab-title) {
-    color: #b4b5c0;
-    border-color: #dedee3; }
+    color: white; }
   a.color-primary:not(.filled),
   .link.color-primary:not(.filled),
   button.color-primary:not(.filled),
@@ -1371,9 +1375,9 @@ input[type="submit"] {
   button.color-primary.filled,
   .button.color-primary.filled,
   input[type="submit"].color-primary.filled {
-    color: white;
-    background-color: #5f81d8;
-    border-color: #5f81d8; }
+    color: white !important;
+    background-color: #2f58c1;
+    border-color: #2f58c1 !important; }
     a.color-primary.filled:hover,
     .link.color-primary.filled:hover,
     button.color-primary.filled:hover,
@@ -1411,9 +1415,9 @@ input[type="submit"] {
   button.color-accent.filled,
   .button.color-accent.filled,
   input[type="submit"].color-accent.filled {
-    color: white;
+    color: white !important;
     background-color: #5ace81;
-    border-color: #5ace81; }
+    border-color: #5ace81 !important; }
     a.color-accent.filled:hover,
     .link.color-accent.filled:hover,
     button.color-accent.filled:hover,
@@ -1428,27 +1432,90 @@ input[type="submit"] {
     input[type="submit"].color-accent.filled:active {
       background-color: #5ace81;
       border-color: #5ace81; }
+  a.color-accent-second:not(.filled),
+  .link.color-accent-second:not(.filled),
+  button.color-accent-second:not(.filled),
+  .button.color-accent-second:not(.filled),
+  input[type="submit"].color-accent-second:not(.filled) {
+    color: #7568c0; }
+    a.color-accent-second:not(.filled):hover,
+    .link.color-accent-second:not(.filled):hover,
+    button.color-accent-second:not(.filled):hover,
+    .button.color-accent-second:not(.filled):hover,
+    input[type="submit"].color-accent-second:not(.filled):hover {
+      color: #ada5d9; }
+    a.color-accent-second:not(.filled):active,
+    .link.color-accent-second:not(.filled):active,
+    button.color-accent-second:not(.filled):active,
+    .button.color-accent-second:not(.filled):active,
+    input[type="submit"].color-accent-second:not(.filled):active {
+      color: #493c90; }
+  a.color-accent-second.filled,
+  .link.color-accent-second.filled,
+  button.color-accent-second.filled,
+  .button.color-accent-second.filled,
+  input[type="submit"].color-accent-second.filled {
+    color: white !important;
+    background-color: #7568c0;
+    border-color: #7568c0 !important; }
+    a.color-accent-second.filled:hover,
+    .link.color-accent-second.filled:hover,
+    button.color-accent-second.filled:hover,
+    .button.color-accent-second.filled:hover,
+    input[type="submit"].color-accent-second.filled:hover {
+      background-color: #ada5d9;
+      border-color: #ada5d9; }
+    a.color-accent-second.filled:active,
+    .link.color-accent-second.filled:active,
+    button.color-accent-second.filled:active,
+    .button.color-accent-second.filled:active,
+    input[type="submit"].color-accent-second.filled:active {
+      background-color: #7568c0;
+      border-color: #7568c0; }
 
 a, .link {
   text-decoration: none;
   border-color: transparent; }
 
 button, .button, input[type="submit"] {
-  display: inline-block;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 3px; }
+  button :not(:first-child), .button :not(:first-child), input[type="submit"] :not(:first-child) {
+    margin-left: 5px; }
   button:not(.icon):not(.text), .button:not(.icon):not(.text), input[type="submit"]:not(.icon):not(.text) {
     border-radius: 3px;
-    padding: 4px 12px;
-    border-color: currentColor;
     border-width: 1px; }
+  button:not(.with-icon), .button:not(.with-icon), input[type="submit"]:not(.with-icon) {
+    padding: 4px 12px 5px; }
   button.icon, button.text, .button.icon, .button.text, input[type="submit"].icon, input[type="submit"].text {
     border: none; }
+  button.with-icon, .button.with-icon, input[type="submit"].with-icon {
+    position: relative;
+    padding: 4px 12px 5px 25px; }
+    button.with-icon .icon-wrapper, .button.with-icon .icon-wrapper, input[type="submit"].with-icon .icon-wrapper {
+      position: absolute;
+      width: 20px;
+      top: 50%;
+      left: 2px;
+      -webkit-transform: translate(0, -50%);
+              transform: translate(0, -50%); }
+      button.with-icon .icon-wrapper svg, .button.with-icon .icon-wrapper svg, input[type="submit"].with-icon .icon-wrapper svg {
+        position: relative;
+        top: 1px; }
 
 .color-primary {
   color: #5f81d8; }
 
 .color-accent {
   color: #5ace81; }
+
+.color-accent-second {
+  color: #7568c0; }
 
 .list-item {
   border-left-width: 0 !important;
