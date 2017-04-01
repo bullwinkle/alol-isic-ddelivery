@@ -1304,7 +1304,9 @@ body {
   font-size: 12px;
   font-weight: 400;
   background-color: #ecedf0;
-  color: black; }
+  color: black;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0); }
 
 label {
   cursor: pointer; }
