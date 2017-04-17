@@ -1120,7 +1120,8 @@ input:focus, textarea:focus {
 .panel {
   border: 1px solid #dedee3;
   border-radius: 3px;
-  background-color: white; }
+  background-color: white;
+  margin-bottom: 13.33333px; }
   .panel:not(:first-child) {
     margin-top: 13.33333px; }
   .panel-header {
@@ -1210,6 +1211,9 @@ input.search,
   padding-left: 15px;
   border-bottom: 1px solid #dedee3;
   background-color: whitesmoke; }
+
+.feed-header {
+  margin-bottom: 0; }
 
 .feed-header + app-shared-feed-list > .feed-item:first-child {
   border-top: none;
