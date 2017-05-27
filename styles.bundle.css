@@ -969,6 +969,10 @@ input {
 input:focus, textarea:focus {
   outline: none; }
 
+.align-middle:not(.row) > * {
+  display: inline-block;
+  vertical-align: middle; }
+
 .panel {
   border: 1px solid #dedee3;
   border-radius: 3px;
@@ -1149,6 +1153,66 @@ input.search,
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden; }
+
+.s-f-base-lighter {
+  color: #dedee3; }
+
+.s-f-base-light {
+  color: #b4b5c0; }
+
+.s-f-base {
+  color: #616275; }
+
+.s-f-base-dark {
+  color: #202127; }
+
+.s-f-base-darker {
+  color: #070708; }
+
+.s-f-primary-lighter {
+  color: #bacbf7; }
+
+.s-f-primary-light {
+  color: #7899ed; }
+
+.s-f-primary {
+  color: #4f7ae8; }
+
+.s-f-primary-dark {
+  color: #3466e5; }
+
+.s-f-primary-darker {
+  color: #284ba4; }
+
+.s-f-accent-lighter {
+  color: #c4edd2; }
+
+.s-f-accent-light {
+  color: #9de2b4; }
+
+.s-f-accent {
+  color: #5ace81; }
+
+.s-f-accent-dark {
+  color: #2f9d54; }
+
+.s-f-accent-darker {
+  color: #1d6234; }
+
+.s-f-accent-second-lighter {
+  color: #cec9e8; }
+
+.s-f-accent-second-light {
+  color: #ada5d9; }
+
+.s-f-accent-second {
+  color: #7568c0; }
+
+.s-f-accent-second-dark {
+  color: #493c90; }
+
+.s-f-accent-second-darker {
+  color: #372d6c; }
 
 .f-upper {
   text-transform: uppercase; }
