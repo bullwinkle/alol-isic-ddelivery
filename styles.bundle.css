@@ -1445,10 +1445,6 @@ html.is-initial-loading, html.is-initial-loading > body {
   width: 100%;
   height: 100%; }
 
-app-root {
-  display: block;
-  position: relative; }
-
 .full-size {
   position: fixed;
   top: 0;
