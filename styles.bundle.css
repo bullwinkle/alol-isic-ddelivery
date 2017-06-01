@@ -1080,6 +1080,12 @@ input.search,
   border-top-right-radius: 0;
   margin-top: 0; }
 
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.3.1
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
 .l-block {
   display: block; }
 
@@ -1134,6 +1140,10 @@ input.search,
 
 .l-fixed {
   position: fixed; }
+
+@media screen and (min-width: 640px) {
+  .l-fixed-medium {
+    position: fixed; } }
 
 .s-rounded {
   border-radius: 1000px;
