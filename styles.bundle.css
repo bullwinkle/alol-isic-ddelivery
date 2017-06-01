@@ -1132,6 +1132,9 @@ input.search,
 .l-p-xs {
   padding: 10px; }
 
+.l-fixed {
+  position: fixed; }
+
 .s-rounded {
   border-radius: 1000px;
   overflow: hidden; }
@@ -1238,9 +1241,7 @@ body {
   font-size: 12px;
   font-weight: 400;
   background-color: #ecedf0;
-  color: black;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0); }
+  color: black; }
 
 label {
   cursor: pointer; }
